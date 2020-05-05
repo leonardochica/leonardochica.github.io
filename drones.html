@@ -1,0 +1,2574 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+	<link rel="stylesheet" href="css/main.css">
+	<title>The Drone Store | Drones</title>
+</head>
+
+<body>
+	<header class="main-header">
+		<div class="main-header__content container">
+			<div class="main-header__top">
+				<div class="main-header__logo">
+					<a href="index.html">
+						<img src="img/logo.png" alt="logo" class="logo">
+					</a>
+				</div>
+
+				<!-- Search box -->
+				<div class="main-header__search">
+					<div class="main-header__categories">
+						<select name="categories" id="category">
+							<option value="All-categories">All categories</option>
+							<option value="none" disabled>------</option>
+							<option value="Adapter">Adapter</option>
+							<option value="Arm">Arm</option>
+							<option value="Backpack">Backpack</option>
+							<option value="Base">Base</option>
+							<option value="Cable">Cable</option>
+							<option value="Camera">Camera</option>
+							<option value="Controller">Controller</option>
+							<option value="Drone">Drone</option>
+							<option value="Gimbal">Gimbal</option>
+							<option value="Motor">Motor</option>
+							<option value="Propeller">Propeller</option>
+							<option value="Quadcopter">Quadcopter</option>
+							<option value="Remote-Controller">Remote Controller</option>
+						</select>
+						<i class="fas fa-angle-down icon--dark"></i>
+					</div>
+					<div class="main-header__search-box">
+						<input type="text" placeholder="What are you looking for?">
+					</div>
+					<div class="main-header__search-icon">
+						<a href="">
+							<i class="fas fa-search icon--light"></i>
+						</a>
+					</div>
+				</div>
+
+				<!-- Shopping cart icon -->
+				<div class="main-header__shopping">
+					<a href="">
+						<i class="fas fa-shopping-cart icon--light"></i>
+						<div class="main-header__shopping__cart text--small">2</div>
+					</a>
+				</div>
+			</div>
+
+			<!-- Hamburger Menu -->
+			<input type="checkbox" name="burger-check" id="burger-menu--check" class="check-button">
+			<div class="burger-menu">
+				<div class="burger-menu__line"></div>
+				<label for="burger-menu--check" class="burger-menu--toggler"></label>
+			</div>
+
+			<!-- Navigation -->
+			<nav class="navbar" id="navbar-popup">
+				<ul class="navbar__menu">
+					<span class="navbar__close-window" id="navbar--close-icon">x</span>
+
+
+					<!-- Drones -->
+					<li class="navbar__item"><a class="link--light" href="drones.html">Drones</a></li>
+
+					<!-- Cameras -->
+					<input type="checkbox" name="navbar__item1" id="navbar__item--check1" class="check-button">
+					<li class="navbar__item hover" id="navbar__dropdown--hover1">
+						<label for="navbar__item--check1" class="navbar__item--list">
+							<a class="navbar__item--link link--light" href="cameras.html">Cameras
+								<i class="fas fa-angle-down icon--light"></i>
+							</a>
+						</label>
+						<div>
+							<ul class="navbar__dropdown">
+								<input type="checkbox" name="navbar-subitem1" id="navbar__dropdown--check1" class="check-button">
+								<label for="navbar__dropdown--check1" class="navbar__dropdown--list">
+									<li class="navbar__subitem--first"><a class="link--dark" href="#">DJI</a>
+										<i class="fas fa-angle-down icon--dark"></i>
+									</li>
+								</label>
+								<li class="navbar__subitem"><a class="link--medium" href="#">Digital Camcorder</a></li>
+								<li class="navbar__subitem"><a class="link--medium" href="#">Osmo</a></li>
+								<li class="navbar__subitem"><a class="link--medium" href="#">Ronin-M Gimbal Stabilizer</a></li>
+								<li class="navbar__subitem"><a class="link--medium" href="#">Ronin-H3 Stabilizer</a></li>
+								<li class="navbar__subitem"><a class="link--medium" href="#">Zenmuse H3 Gimbal</a></li>
+							</ul>
+							<ul class="navbar__dropdown">
+								<input type="checkbox" name="navbar-subitem2" id="navbar__dropdown--check2" class="check-button">
+								<label for="navbar__dropdown--check2" class="navbar__dropdown--list">
+									<li class="navbar__subitem--first"><a class="link--dark" href="#">Other</a>
+										<i class="fas fa-angle-down icon--dark"></i>
+									</li>
+								</label>
+								<li class="navbar__subitem"><a class="link--medium" href="#">Yuneec CGO2+ Camera</a></li>
+								<li class="navbar__subitem"><a class="link--medium" href="#">Autel X-Star 4K Camera</a></li>
+							</ul>
+							<ul class="navbar__dropdown">
+								<li class="navbar__subitem--image">
+									<img class="navbar__dropdown--image" src="img/dropdown/camera.jpg" alt="">
+									<p class="text--center">CGO2+ Camera</p>
+								</li>
+							</ul>
+							<ul class="navbar__dropdown"></ul>
+						</div>
+					</li>
+
+
+					<!-- Parts & Tools -->
+					<input type="checkbox" name="navbar__item2" id="navbar__item--check2" class="check-button">
+					<li class="navbar__item hover" id="navbar__dropdown--hover2">
+						<label for="navbar__item--check2" class="navbar__item--list">
+							<a class="navbar__item--link link--light" href="parts_tools.html">Parts & Tools
+								<i class="fas fa-angle-down icon--light"></i>
+							</a>
+						</label>
+						<div>
+							<ul class="navbar__dropdown">
+								<input type="checkbox" name="navbar-subitem3" id="navbar__dropdown--check3" class="check-button">
+								<label for="navbar__dropdown--check3" class="navbar__dropdown--list">
+									<li class="navbar__subitem--first"><a class="link--dark" href="#">Autel</a>
+										<i class="fas fa-angle-down icon--dark"></i>
+									</li>
+								</label>
+								<li class="navbar__subitem"><a class="link--medium" href="#">X-Star Landing Gear</a></li>
+								<li class="navbar__subitem"><a class="link--medium" href="#">X-Star Premium Controller</a></li>
+								<li class="navbar__subitem"><a class="link--medium" href="#">X-Star Premium Craft Only</a></li>
+								<li class="navbar__subitem"><a class="link--medium" href="#">X-Star Propellers</a></li>
+							</ul>
+							<ul class="navbar__dropdown">
+								<input type="checkbox" name="navbar-subitem4" id="navbar__dropdown--check4" class="check-button">
+								<label for="navbar__dropdown--check4" class="navbar__dropdown--list">
+									<li class="navbar__subitem--first"><a class="link--dark" href="#">DJI</a>
+										<i class="fas fa-angle-down icon--dark"></i>
+									</li>
+								</label>
+								<li class="navbar__subitem"><a class="link--medium" href="#">HDMI Output Module</a></li>
+								<li class="navbar__subitem"><a class="link--medium" href="#">Inspire 11356T Propellers</a></li>
+								<li class="navbar__subitem"><a class="link--medium" href="#">Inspire 11360T Propellers</a></li>
+								<li class="navbar__subitem"><a class="link--medium" href="#">Inspire 1 Remote Controller</a></li>
+								<li class="navbar__subitem"><a class="link--medium" href="#">Mavic Battery Charging Hub</a></li>
+							</ul>
+							<ul class="navbar__dropdown">
+								<input type="checkbox" name="navbar-subitem5" id="navbar__dropdown--check5" class="check-button">
+								<label for="navbar__dropdown--check5" class="navbar__dropdown--list">
+									<li class="navbar__subitem--first"><a class="link--dark" href="#">Yuneec</a>
+										<i class="fas fa-angle-down icon--dark"></i>
+									</li>
+								</label>
+								<li class="navbar__subitem"><a class="link--medium" href="#">Extra Drone Screws</a></li>
+								<li class="navbar__subitem"><a class="link--medium" href="#">Typoon Q500 Brushless ESC (Front)</a></li>
+								<li class="navbar__subitem"><a class="link--medium" href="#">Typoon Q500 Brushless Motor</a></li>
+								<li class="navbar__subitem"><a class="link--medium" href="#">Typoon Q500 Brushless Landing Gear</a></li>
+							</ul>
+							<ul class="navbar__dropdown">
+								<li class="navbar__subitem--image">
+									<img class="navbar__dropdown--image" src="img/dropdown/parts_and_tools.jpg" alt="">
+									<p class="text--center">HDMI Output Module</p>
+								</li>
+							</ul>
+							<ul class="navbar__dropdown"></ul>
+						</div>
+					</li>
+
+					<!-- Accessories -->
+					<input type="checkbox" name="navbar__item3" id="navbar__item--check3" class="check-button">
+					<li class="navbar__item hover" id="navbar__dropdown--hover3">
+						<label for="navbar__item--check3" class="navbar__item--list">
+							<a class="navbar__item--link link--light" href="accessories.html">Accessories
+								<i class="fas fa-angle-down icon--light"></i>
+							</a>
+						</label>
+						<div>
+							<ul class="navbar__dropdown">
+								<input type="checkbox" name="navbar-subitem6" id="navbar__dropdown--check6" class="check-button">
+								<label for="navbar__dropdown--check6" class="navbar__dropdown--list">
+									<li class="navbar__subitem--first"><a class="link--dark" href="#">DJI</a>
+										<i class="fas fa-angle-down icon--dark"></i>
+									</li>
+								</label>
+								<li class="navbar__subitem"><a class="link--medium" href="#">15mm F1.7 Lens</a></li>
+								<li class="navbar__subitem"><a class="link--medium" href="#">A3 Flight Controller</a></li>
+								<li class="navbar__subitem"><a class="link--medium" href="#">Bebop 2 Battery</a></li>
+							</ul>
+							<ul class="navbar__dropdown">
+								<input type="checkbox" name="navbar-subitem7" id="navbar__dropdown--check7" class="check-button">
+								<label for="navbar__dropdown--check7" class="navbar__dropdown--list">
+									<li class="navbar__subitem--first"><a class="link--dark" href="#">Autel</a>
+										<i class="fas fa-angle-down icon--dark"></i>
+									</li>
+								</label>
+								<li class="navbar__subitem"><a class="link--medium" href="#">X-Star Battery</a></li>
+								<li class="navbar__subitem"><a class="link--medium" href="#">X-Star Battery Charger</a></li>
+								<li class="navbar__subitem"><a class="link--medium" href="#">X-Star Premium Controller</a></li>
+							</ul>
+							<ul class="navbar__dropdown">
+								<input type="checkbox" name="navbar-subitem8" id="navbar__dropdown--check8" class="check-button">
+								<label for="navbar__dropdown--check8" class="navbar__dropdown--list">
+									<li class="navbar__subitem--first"><a class="link--dark" href="#">yuneec</a>
+										<i class="fas fa-angle-down icon--dark"></i>
+									</li>
+								</label>
+								<li class="navbar__subitem"><a class="link--medium" href="#">CGO2+ Camera/Camcorder Stabilizer</a></li>
+								<li class="navbar__subitem"><a class="link--medium" href="#">E-GO2 Electronic Controller</a></li>
+								<li class="navbar__subitem"><a class="link--medium" href="#">E-GO2 Wheel Set</a></li>
+								<li class="navbar__subitem"><a class="link--medium" href="#">Typhoon H Battery</a></li>
+							</ul>
+							<ul class="navbar__dropdown">
+								<li class="navbar__subitem--image">
+									<img class="navbar__dropdown--image" src="img/dropdown/Accessories.jpg" alt="">
+									<p class="text--center">15mm F1.7 Lens</p>
+								</li>
+							</ul>
+							<ul class="navbar__dropdown"></ul>
+						</div>
+					</li>
+
+					<!-- Sale -->
+					<li class="navbar__item"><a class="link--light" href="sale.html">Sale</a></li>
+					<!-- Blog -->
+					<li class="navbar__item"><a class="link--light" href="blog.html">Blog</a></li>
+					<!-- About -->
+					<li class="navbar__item"><a class="link--light" href="about.html">About</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+
+	<!-- Drones Page -->
+
+	<section class="collection" id="drones">
+		<div class="collection__content container">
+			<div class="collection__products">
+				<p class="collection__navigation text--medium-color">
+					<a href="index.html" class="link--primary">Home</a> &gt; Drones
+				</p>
+				<h1 class="collection__title text--dark-color text--xxlarge">Drones</h1>
+
+				<!-- Input radio for selecting layout -->
+				<input type="radio" name="layout" id="grid" class="radio-button">
+				<input type="radio" name="layout" id="column" class="radio-button" checked>
+				<!-- Menu: sort, view as grid or column -->
+				<div class="collection__menu text--dark-color padding--small">
+					<div class="collection__menu__container">
+						<div class="menu__item filters--link">
+							<i class="fas fa-sliders-h icon--primary"></i>
+							<a class="link--primary">Filters</a>
+						</div>
+						<div class="menu__item">
+							<a class="sort__link">Sort by</a>
+							<div class="collection__sort">
+								<div class="collection__sort__container">
+									<span class="close-window" id="sort__close-icon">x</span>
+									<h3 class="sort__title">Sort by</h3>
+									<div class="collection__sort__dropdown" tabindex="1">
+										<input type="radio" name="sort-options" id="sort-input--option1" class="radio-button" checked>
+										<p class="sort-input--text">Featured</p>
+
+										<input type="radio" name="sort-options" id="sort-input--option2" class="radio-button">
+										<p class="sort-input--text">Best Selling</p>
+
+										<input type="radio" name="sort-options" id="sort-input--option3" class="radio-button">
+										<p class="sort-input--text">Alphabetically, A-Z</p>
+
+										<input type="radio" name="sort-options" id="sort-input--option4" class="radio-button">
+										<p class="sort-input--text">Alphabetically, Z-A</p>
+
+										<input type="radio" name="sort-options" id="sort-input--option5" class="radio-button">
+										<p class="sort-input--text">Price, low to high</p>
+
+										<input type="radio" name="sort-options" id="sort-input--option6" class="radio-button">
+										<p class="sort-input--text">Price, high to low</p>
+
+										<input type="radio" name="sort-options" id="sort-input--option7" class="radio-button">
+										<p class="sort-input--text">Date, old to new</p>
+
+										<input type="radio" name="sort-options" id="sort-input--option8" class="radio-button">
+										<p class="sort-input--text">Date, new to old</p>
+
+										<i class="sort__icon fas fa-caret-down icon--dark"></i>
+									</div>
+									<ul class="sort__list">
+										<li>
+											<label for="sort-input--option1" class="sort__option">Featured</label>
+										</li>
+										<li>
+											<label for="sort-input--option2" class="sort__option">Best Selling</label>
+										</li>
+										<li>
+											<label for="sort-input--option3" class="sort__option">Alphabetically, A-Z</label>
+										</li>
+										<li>
+											<label for="sort-input--option4" class="sort__option">Alphabetically, Z-A</label>
+										</li>
+										<li>
+											<label for="sort-input--option5" class="sort__option">Price, low to high</label>
+										</li>
+										<li>
+											<label for="sort-input--option6" class="sort__option">Price, high to low</label>
+										</li>
+										<li>
+											<label for="sort-input--option7" class="sort__option">Date, old to new</label>
+										</li>
+										<li>
+											<label for="sort-input--option8" class="sort__option">Date, new to old</label>
+										</li>
+									</ul>
+
+								</div>
+							</div>
+						</div>
+						<div class="menu__item">
+							<p class="menu__title">Show</p>
+							<a href="" class="link--medium current">24</a>
+							<a href="" class="link--medium">36</a>
+							<a href="" class="link--medium">48</a>
+						</div>
+						<div class="menu__item">
+							<p class=" menu__title">View as</p>
+							<div class="subitem">
+								<label for="grid" class="grid__icon--bg"><i class="grid__icon fas fa-th"></i></label>
+								<label for="column" class="column__icon--bg"><i class="column__icon fas fa-align-justify"></i></label>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- Product Grid | Layout -->
+				<div class="products">
+					<div class="products__grid products__grid__col-pages">
+						<!-- Drones1 -->
+						<div class="products__grid__card border--medium-color padding--small">
+							<a href="" class="card__image">
+								<img class="image" src="img/products/drones/drones1/drones1--img--img1.jpg" alt="">
+							</a>
+							<div class="card__buttons__container">
+								<p class="text--primary-color text--xlarge card__price">$1,029.00</p>
+								<div class="card__buttons">
+									<a class="card__button btn--light text--small" id="drones1--btn--quick">Quick shop</a>
+									<a class="card__button btn--dark text--small btn--popup">Add to cart</a>
+								</div>
+							</div>
+							<div class="card__info">
+								<a class="card__title link--dark heading--small" href="">
+									<h5>Mavic Pro</h5>
+								</a>
+								<a class="card__brand link--medium text--small" href="">
+									<p>DJI</p>
+								</a>
+								<p class="text--small marginy--xsmall">
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star"></i>
+									2 reviews
+								</p>
+								<p class="card__text">The DJI Mavic Pro is a small yet powerful drone that turns the sky into your
+									creative canvas easily and without worry, helping you make every mome...</p>
+								<a href="" class="card__link link--primary">View full details</a>
+							</div>
+						</div>
+
+						<!-- Drones2 -->
+						<div class="products__grid__card border--medium-color padding--small">
+							<!-- Card with multiple color selection -->
+							<a href="" class="card__image image__multiple">
+
+								<!-- Radio buttons for colors -->
+								<input type="radio" name="drones2--collection--color" id="drones2--collection--color1"
+									class="radio-button">
+								<label for="drones2--collection--color1"
+									class="LBL--color1 style--color-box color--loc1--collection white-style"></label>
+
+								<input type="radio" name="drones2--collection--color" id="drones2--collection--color2"
+									class="radio-button">
+								<label for="drones2--collection--color2"
+									class="LBL--color2 style--color-box color--loc2--collection orange-style"></label>
+
+								<img class="image image--1" src="img/products/drones/drones2/drones2--img--img1.jpg" alt="">
+								<img class="image image--2" src="img/products/drones/drones2/drones2--img--img2.jpg" alt="">
+							</a>
+							<div class="card__buttons__container">
+								<p class="card__price text--primary-color text--xlarge">$899.00</p>
+								<div class="card__buttons">
+									<a class="card__button btn--light text--small" id="drones2--btn--quick">Quick shop</a>
+									<a class="card__button btn--dark text--small">Choose options</a>
+								</div>
+							</div>
+							<div class="card__info">
+								<a class="card__title link--dark heading--small" href="">
+									<h5>X-Star Premium</h5>
+								</a>
+								<a class="card__brand link--medium text--small" href="">
+									<p>Autel</p>
+								</a>
+								<p class="text--small marginy--xsmall">
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star"></i>
+									<i class="far fa-star"></i>
+									1 review
+								</p>
+								<p class="card__text">The X-Star Premium has twice the HD Live View range compared to the X-Star,
+									includes a larger 64-GB card, and comes packed in a semi-hard, splash-...</p>
+								<a href="" class="card__link link--primary">View full details</a>
+							</div>
+						</div>
+
+						<!-- Drones3 -->
+						<div class="products__grid__card
+						border--medium-color padding--small">
+							<a href="" class="card__image">
+								<img class="image" src="img/products/drones/drones3/drones3--img--img1.jpg" alt="">
+							</a>
+
+							<!-- Card with tag of discount sale -->
+							<div class="card__buttons__container">
+								<div class="tag">
+									<p class="tag--sale style-tag--sale">Sale</p>
+									<p class="tag--cross text--medium-color text--medium text--line-thru">$2,899.00</p>
+									<p class="tag--price text--tag-sale-color text--xlarge">$1,999.99</p>
+								</div>
+								<div class="card__buttons">
+									<a class="card__button btn--light text--small" id="drones3--btn--quick">Quick shop</a>
+									<a class="card__button btn--dark text--small">Add to cart</a>
+								</div>
+							</div>
+
+							<div class="card__info">
+								<a class="card__title link--dark heading--small" href="">
+									<h5>Inspire 1</h5>
+								</a>
+								<a class="card__brand link--medium text--small" href="">
+									<p>DJI</p>
+								</a>
+								<p class="text--small marginy--xsmall">
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star-half-alt"></i>
+									3 reviews
+								</p>
+								<p class="card__text">Imagine holding the future in your hands. Designed to be powerful while
+									lightweight, flexible while providing the stability you need, the Inspire ...</p>
+								<a href="" class="card__link link--primary">View full details</a>
+							</div>
+						</div>
+
+						<!-- Drones4 -->
+						<div class="products__grid__card border--medium-color padding--small">
+							<a href="" class="card__image">
+								<img class="image" src="img/products/drones/drones4/drones4--img--img1.jpg" alt="">
+							</a>
+							<div class="card__buttons__container">
+								<div class="tag">
+									<p class="tag--sale style-tag--sold-out">Sold out</p>
+									<p class="tag--cross"></p>
+									<p class="tag--price text--primary-color text--xlarge">$599.00</p>
+								</div>
+								<div class="card__buttons">
+									<a class="card__button btn--light text--small" id="drones4--btn--quick">Quick shop</a>
+									<a class="card__button btn--soldout text--small">Sold out</a>
+								</div>
+							</div>
+							<div class="card__info">
+								<a class="card__title link--dark heading--small" href="">
+									<h5>Typhoon Q500</h5>
+								</a>
+								<a class="card__brand link--medium text--small" href="">
+									<p>Yuneec</p>
+								</a>
+								<p class="text--small marginy--xsmall">
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star-half-alt"></i>
+									2 reviews
+								</p>
+								<p class="card__text">A completion level of ready-to-fly (RTF) means this version of the Q500 Typhoon
+									Quadcopter with CGO3-GB Camera, SteadyGrip, and Camera Aluminum Ca...</p>
+								<a href="" class="card__link link--primary">View full details</a>
+							</div>
+						</div>
+
+						<!-- Drones5 -->
+						<div class="products__grid__card border--medium-color padding--small">
+							<!-- Card with mutiple color selection -->
+							<a href="" class="card__image image__multiple">
+
+								<!-- Radio buttons for colors -->
+								<input type="radio" name="drones5--collection--color" id="drones5--collection--color1"
+									class="radio-button">
+								<label for="drones5--collection--color1"
+									class="LBL--color1 style--color-box color--loc1--collection white-style"></label>
+
+								<input type="radio" name="drones5--collection--color" id="drones5--collection--color2"
+									class="radio-button">
+								<label for="drones5--collection--color2"
+									class="LBL--color2 style--color-box color--loc2--collection orange-style"></label>
+
+								<!-- Images -->
+								<img class="image image--1" id="img-color1" src="img/products/drones/drones5/drones5--img--img1.jpg"
+									alt="">
+								<img class="image image--2" id="img-color2" src="img/products/drones/drones5/drones5--img--img2.jpg"
+									alt="">
+							</a>
+							<div class="card__buttons__container">
+								<p class="text--primary-color text--xlarge card__price">$699.00</p>
+								<div class="card__buttons">
+									<a class="card__button btn--light text--small" id="drones5--btn--quick">Quick shop</a>
+									<a class="card__button btn--dark text--small">Choose options</a>
+								</div>
+							</div>
+							<div class="card__info">
+								<a class="card__title link--dark heading--small" href="">
+									<h5>X-Star</h5>
+								</a>
+								<a class="card__brand link--medium text--small" href="">
+									<p>Autel</p>
+								</a>
+								<p class="text--small marginy--xsmall">
+									<i class="far fa-star"></i>
+									<i class="far fa-star"></i>
+									<i class="far fa-star"></i>
+									<i class="far fa-star"></i>
+									<i class="far fa-star"></i>
+									No reviews
+								</p>
+								<p class="card__text">The X-Star is a sophisticated yet amazingly easy-to-fly quadcopter designed for
+									superb aerial imagery. The 4K camera and 3-axis gimbal can record ...</p>
+								<a href="" class="card__link link--primary">View full details</a>
+							</div>
+						</div>
+
+						<!-- Drones6 -->
+						<div class="products__grid__card border--medium-color padding--small">
+							<a href="" class="card__image">
+								<img class="image" src="img/products/drones/drones6/drones6--img--img1.jpg" alt="">
+							</a>
+							<div class="card__buttons__container">
+								<p class="text--primary-color text--xlarge card__price">$249.00</p>
+								<div class="card__buttons">
+									<a class="card__button btn--light text--small" id="drones6--btn--quick">Quick shop</a>
+									<a class="card__button btn--dark text--small btn--popup">Add to cart</a>
+								</div>
+							</div>
+							<div class="card__info">
+								<a class="card__title link--dark heading--small" href="">
+									<h5>A.R. Drone 2.0 Elite Jungle Edition</h5>
+								</a>
+								<a class="card__brand link--medium text--small" href="">
+									<p>Parrot</p>
+								</a>
+								<p class="text--small marginy--xsmall">
+									<i class="far fa-star"></i>
+									<i class="far fa-star"></i>
+									<i class="far fa-star"></i>
+									<i class="far fa-star"></i>
+									<i class="far fa-star"></i>
+									No reviews
+								</p>
+								<p class="card__text">Includes one 1000mAh lithium polymer battery, a high definition camera with a
+									video recording capacity, plus flight data sharing, a patented pilot...</p>
+								<a href="" class="card__link link--primary">View full details</a>
+							</div>
+						</div>
+
+						<!-- Drones7 -->
+						<div class="products__grid__card border--medium-color padding--small">
+							<a href="" class="card__image">
+								<img class="image" src="img/products/drones/drones7/drones7--img--img1.jpg" alt="">
+							</a>
+							<div class="card__buttons__container">
+								<p class="text--primary-color text--xlarge card__price">$999.00</p>
+								<div class="card__buttons">
+									<a class="card__button btn--light text--small" id="drones7--btn--quick">Quick shop</a>
+									<a class="card__button btn--dark text--small btn--popup">Add to cart</a>
+								</div>
+							</div>
+							<div class="card__info">
+								<a class="card__title link--dark heading--small" href="">
+									<h5>Phantom 3 Professional</h5>
+								</a>
+								<a class="card__brand link--medium text--small" href="">
+									<p>DJI</p>
+								</a>
+								<p class="text--small marginy--xsmall">
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star"></i>
+									2 reviews
+								</p>
+								<p class="card__text">Your Phantom 3 Professional fits into your life and makes flying remarkably
+									intuitive and easy. From takeoff to landing, it is completely under yo...</p>
+								<a href="" class="card__link link--primary">View full details</a>
+							</div>
+						</div>
+
+						<!-- Drones8 -->
+						<div class="products__grid__card border--medium-color padding--small">
+							<!-- Card with mutiple color selection -->
+							<a href="" class="card__image image__multiple">
+
+								<!-- Radio buttons for colors -->
+								<input type="radio" name="drones8--collection--color" id="drones8--collection--color1"
+									class="radio-button">
+								<label for="drones8--collection--color1"
+									class="LBL--color1 style--color-box color--loc1--collection cian-style"></label>
+
+								<input type="radio" name="drones8--collection--color" id="drones8--collection--color2"
+									class="radio-button">
+								<label for="drones8--collection--color2"
+									class="LBL--color2 style--color-box color--loc2--collection red-style"></label>
+
+								<!-- Images -->
+								<img class="image image--1" id="img-color1" src="img/products/drones/drones8/drones8--img--img1.jpg"
+									alt="">
+								<img class="image image--2" id="img-color2" src="img/products/drones/drones8/drones8--img--img2.jpg"
+									alt="">
+							</a>
+							<div class="card__buttons__container">
+								<p class="text--primary-color text--xlarge card__price">$399.00</p>
+								<div class="card__buttons">
+									<a class="card__button btn--light text--small" id="drones8--btn--quick">Quick shop</a>
+									<a class="card__button btn--dark text--small">Choose options</a>
+								</div>
+							</div>
+							<div class="card__info">
+								<a class="card__title link--dark heading--small" href="">
+									<h5>Bebop</h5>
+								</a>
+								<a class="card__brand link--medium text--small" href="">
+									<p>Parrot</p>
+								</a>
+								<p class="text--small marginy--xsmall">
+									<i class="far fa-star"></i>
+									<i class="far fa-star"></i>
+									<i class="far fa-star"></i>
+									<i class="far fa-star"></i>
+									<i class="far fa-star"></i>
+									No reviews
+								</p>
+								<p class="card__text">Parrot Bebop Drone produces the best flight performance ever seen in a leisure
+									drone. The feather-weight ABS reinforced structure makes Parrot Beb...</p>
+								<a href="" class="card__link link--primary">View full details</a>
+							</div>
+						</div>
+
+						<!-- Drones9 -->
+						<div class="products__grid__card border--medium-color padding--small">
+							<!-- Card with mutiple color selection -->
+							<a href="" class="card__image image__multiple">
+
+								<!-- Radio buttons for colors -->
+								<input type="radio" name="drones9--collection--color" id="drones9--collection--color1"
+									class="radio-button">
+								<label for="drones9--collection--color1"
+									class="LBL--color1 style--color-box color--loc1--collection red-style"></label>
+
+								<input type="radio" name="drones9--collection--color" id="drones9--collection--color2"
+									class="radio-button">
+								<label for="drones9--collection--color2"
+									class="LBL--color2 style--color-box color--loc2--collection white-style"></label>
+
+								<!-- Images -->
+								<img class="image image--1" id="img-color1" src="img/products/drones/drones9/drones9--img--img1.jpg"
+									alt="">
+								<img class="image image--2" id="img-color2" src="img/products/drones/drones9/drones9--img--img2.jpg"
+									alt="">
+							</a>
+							<div class="card__buttons__container">
+								<p class="text--primary-color text--xlarge card__price">$549.00</p>
+								<div class="card__buttons">
+									<a class="card__button btn--light text--small" id="drones9--btn--quick">Quick shop</a>
+									<a class="card__button btn--dark text--small">Choose options</a>
+								</div>
+							</div>
+							<div class="card__info">
+								<a class="card__title link--dark heading--small" href="">
+									<h5>Bebop 2</h5>
+								</a>
+								<a class="card__brand link--medium text--small" href="">
+									<p>Parrot</p>
+								</a>
+								<p class="text--small marginy--xsmall">
+									<i class="far fa-star"></i>
+									<i class="far fa-star"></i>
+									<i class="far fa-star"></i>
+									<i class="far fa-star"></i>
+									<i class="far fa-star"></i>
+									No reviews
+								</p>
+								<p class="card__text">Take control of Bebop 2 with intuitive controls. Two extremely precise joysticks
+									control the drone. A further two can be used to adjust the angle ...</p>
+								<a href="" class="card__link link--primary">View full details</a>
+							</div>
+						</div>
+
+						<!-- Drones13 -->
+						<div class="products__grid__card border--medium-color padding--small">
+							<!-- Card with mutiple color selection -->
+							<a href="" class="card__image image__multiple">
+
+								<!-- Radio buttons for colors -->
+								<input type="radio" name="drones13--collection--color" id="drones13--collection--color1"
+									class="radio-button">
+								<label for="drones13--collection--color1"
+									class="LBL--color1 style--color-box color--loc1--collection black-red-style"></label>
+
+								<input type="radio" name="drones13--collection--color" id="drones13--collection--color2"
+									class="radio-button">
+								<label for="drones13--collection--color2"
+									class="LBL--color2 style--color-box color--loc2--collection white-cian-style"></label>
+
+								<!-- Images -->
+								<img class="image image--1" id="img-color1" src="img/products/drones/drones13/drones13--img--img1.jpg"
+									alt="">
+								<img class="image image--2" id="img-color2" src="img/products/drones/drones13/drones13--img--img2.jpg"
+									alt="">
+							</a>
+							<div class="card__buttons__container">
+								<p class="text--primary-color text--xlarge card__price">$399.00</p>
+								<div class="card__buttons">
+									<a class="card__button btn--light text--small" id="drones13--btn--quick">Quick shop</a>
+									<a class="card__button btn--dark text--small">Choose options</a>
+								</div>
+							</div>
+							<div class="card__info">
+								<a class="card__title link--dark heading--small" href="">
+									<h5>GhostDrone 2.0 Aerial</h5>
+								</a>
+								<a class="card__brand link--medium text--small" href="">
+									<p>eHANG</p>
+								</a>
+								<p class="text--small marginy--xsmall">
+									<i class="far fa-star"></i>
+									<i class="far fa-star"></i>
+									<i class="far fa-star"></i>
+									<i class="far fa-star"></i>
+									<i class="far fa-star"></i>
+									No reviews
+								</p>
+								<p class="card__text">Easiest-to-fly drone in the world, requires only an Android or iOS device and a
+									small G-Box to fly Ghost Drone (G-Box included). Fly for up to 25 ...</p>
+								<a href="" class="card__link link--primary">View full details</a>
+							</div>
+						</div>
+
+						<!-- Drones14 -->
+						<div class="products__grid__card border--medium-color padding--small">
+							<!-- Card with mutiple color selection -->
+							<a href="" class="card__image image__multiple">
+
+								<!-- Radio buttons for colors -->
+								<input type="radio" name="drones14--collection--color" id="drones14--collection--color1"
+									class="radio-button">
+								<label for="drones14--collection--color1"
+									class="LBL--color1 style--color-box color--loc1--collection black-red-style"></label>
+
+								<input type="radio" name="drones14--collection--color" id="drones14--collection--color2"
+									class="radio-button">
+								<label for="drones14--collection--color2"
+									class="LBL--color2 style--color-box color--loc2--collection white-cian-style"></label>
+
+								<!-- Images -->
+								<img class="image image--1" id="img-color1" src="img/products/drones/drones14/drones14--img--img1.jpg"
+									alt="">
+								<img class="image image--2" id="img-color2" src="img/products/drones/drones14/drones14--img--img2.jpg"
+									alt="">
+							</a>
+							<div class="card__buttons__container">
+								<p class="text--primary-color text--xlarge card__price">$899.00</p>
+								<div class="card__buttons">
+									<a class="card__button btn--light text--small" id="drones14--btn--quick">Quick shop</a>
+									<a class="card__button btn--dark text--small">Choose options</a>
+								</div>
+							</div>
+							<div class="card__info">
+								<a class="card__title link--dark heading--small" href="">
+									<h5>GhostDrone 2.0 Aerial + iOS VR Goggles</h5>
+								</a>
+								<a class="card__brand link--medium text--small" href="">
+									<p>eHang</p>
+								</a>
+								<p class="text--small marginy--xsmall">
+									<i class="far fa-star"></i>
+									<i class="far fa-star"></i>
+									<i class="far fa-star"></i>
+									<i class="far fa-star"></i>
+									<i class="far fa-star"></i>
+									No reviews
+								</p>
+								<p class="card__text">The head-tracking eHang VR goggles let you see through the eyes of the GhostDrone
+									2.0 for a truly immersive experience with video transmission bui...</p>
+								<a href="" class="card__link link--primary">View full details</a>
+							</div>
+						</div>
+
+						<!-- Drones15 -->
+						<div class="products__grid__card border--medium-color padding--small">
+							<a href="" class="card__image">
+								<img class="image" src="img/products/drones/drones15/drones15--img--img1.jpg" alt="">
+							</a>
+							<div class="card__buttons__container">
+								<p class="text--primary-color text--xlarge card__price">$3,399.00</p>
+								<div class="card__buttons">
+									<a class="card__button btn--light text--small" id="drones15--btn--quick">Quick shop</a>
+									<a class="card__button btn--dark text--small btn--popup">Add to cart</a>
+								</div>
+							</div>
+							<div class="card__info">
+								<a class="card__title link--dark heading--small" href="">
+									<h5>Inspire 1 Pro T600</h5>
+								</a>
+								<a class="card__brand link--medium text--small" href="">
+									<p>DJI</p>
+								</a>
+								<p class="text--small marginy--xsmall">
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star"></i>
+									2 reviews
+								</p>
+								<p class="card__text">DJI's most advanced technology comes together in the Inspire 1, an easy to use,
+									all-in-one flying platform that empowers you to create the unforge...ping you make every mome...</p>
+								<a href="" class="card__link link--primary">View full details</a>
+							</div>
+						</div>
+
+
+
+					</div>
+				</div>
+
+				<!-- Page navigation -->
+				<div class="page-nav">
+					<a href="" class="link--primary text--large current">1</a>
+					<a href="" class="link--primary text--large">2</a>
+					<a href="" class=" link--primary text--large">Next &gt;</a>
+				</div>
+
+			</div>
+
+			<!-- Product Filters
+			-------------------------->
+			<div class="collection__filters">
+				<div class="filter__container">
+					<span class="close-window" id="filters--close-icon">x</span>
+					<h1 class="filter__title text--dark-color text--xlarge">Filters</h1>
+					<!-- Brand -->
+					<div class="filter__component">
+						<h2 class="menu__title">Brand</h2>
+						<div class="horizontal-line"></div>
+						<ul>
+							<li class="filter__option" title="Narrow selection to products matching tag Brand_Autel">
+								<input type="checkbox" name="" id="autel" class="filter__check autel">
+								<label for="autel" class="filter__label text--dark-color">Autel</label>
+							</li>
+							<div class="horizontal-line"></div>
+							<li class="filter__option text--dark-color" title="Narrow selection to products matching tag Brand_DJI">
+								<input type="checkbox" name="" id="DJI" class="filter__check DJI">
+								<label for="DJI" class="filter__label text--dark-color">DJI</label>
+							</li>
+							<div class="horizontal-line"></div>
+							<li class="filter__option text--dark-color" title="Narrow selection to products matching tag Brand_eHang">
+								<input type="checkbox" name="" id="eHANG" class="filter__check ehang">
+								<label for="eHANG" class="filter__label text--dark-color">eHANG</label>
+							</li>
+							<div class="horizontal-line"></div>
+							<li class="filter__option text--dark-color"
+								title="Narrow selection to products matching tag Brand_FreeFly">
+								<input type="checkbox" name="" id="freefly" class="filter__check freefly"> <label for="freefly"
+									class="filter__label text--dark-color">FreeFly</label>
+							</li>
+							<div class="horizontal-line"></div>
+							<li class="filter__option text--dark-color"
+								title="Narrow selection to products matching tag Brand_Parrot">
+								<input type="checkbox" name="" id="parrot" class="filter__check parrot"> <label for="parrot"
+									class="filter__label text--dark-color">Parrot</label>
+							</li>
+							<div class="horizontal-line"></div>
+							<li class="filter__option text--dark-color"
+								title="Narrow selection to products matching tag Brand_Yuneec">
+								<input type="checkbox" name="" id="yunnec" class="filter__check yunnec"> <label for="yunnec"
+									class="filter__label text--dark-color">Yunnec</label>
+							</li>
+							<div class="horizontal-line"></div>
+						</ul>
+					</div>
+
+					<!-- Color -->
+					<div class="filter__component">
+						<h2 class="menu__title">Color</h2>
+						<ul class="filter__set">
+							<li class="filter__option">
+								<input type="radio" name="color" id="black-red" class="radio-button">
+								<label for="black-red" class="filter__check--color black-red-style"></label>
+							</li>
+							<li class="filter__option">
+								<input type="radio" name="color" id="cian" class="radio-button">
+								<label for="cian" class="filter__check--color cian-style"></label>
+							</li>
+							<li class="filter__option">
+								<input type="radio" name="color" id="orange" class="radio-button">
+								<label for="orange" class="filter__check--color orange-style"></label>
+							</li>
+							<li class="filter__option">
+								<input type="radio" name="color" id="red" class="radio-button">
+								<label for="red" class="filter__check--color red-style"></label>
+							</li>
+							<li class="filter__option">
+								<input type="radio" name="color" id="white" class="radio-button">
+								<label for="white" class="filter__check--color white-style"></label>
+							</li>
+							<li class="filter__option">
+								<input type="radio" name="color" id="white-cian" class="radio-button">
+								<label for="white-cian" class="filter__check--color white-cian-style"></label>
+							</li>
+						</ul>
+					</div>
+
+					<!-- Series -->
+					<div class="filter__component">
+						<h2 class="menu__title">Series</h2>
+						<div class="horizontal-line"></div>
+						<ul>
+							<li class="filter__option">
+								<input type="checkbox" name="" id="ardrone2" class="filter__check ardrone2">
+								<label for="ardrone2" class="filter__label text--dark-color">A.R. Drone 2.0</label>
+							</li>
+							<div class="horizontal-line"></div>
+							<li class="filter__option text--dark-color">
+								<input type="checkbox" name="" id="bebop" class="filter__check bebop">
+								<label for="bebop" class="filter__label text--dark-color">Bebop</label>
+							</li>
+							<div class="horizontal-line"></div>
+							<li class="filter__option text--dark-color">
+								<input type="checkbox" name="" id="bebop2" class="filter__check bebop2">
+								<label for="bebop2" class="filter__label text--dark-color">Bebop 2</label>
+							</li>
+							<div class="horizontal-line"></div>
+							<li class="filter__option text--dark-color">
+								<input type="checkbox" name="" id="freefly-alta" class="filter__check freefly-alta"> <label
+									for="freefly-alta" class="filter__label text--dark-color">FreeFly Alta</label>
+							</li>
+							<div class="horizontal-line"></div>
+							<li class="filter__option text--dark-color">
+								<input type="checkbox" name="" id="ghostdrone2" class="filter__check ghostdrone2"> <label
+									for="ghostdrone2" class="filter__label text--dark-color">GhostDrone 2.0</label>
+							</li>
+							<div class="horizontal-line"></div>
+							<li class="filter__option text--dark-color">
+								<input type="checkbox" name="" id="inspire1" class="filter__check inspire1"> <label for="inspire1"
+									class="filter__label text--dark-color">Inspire 1</label>
+							</li>
+							<div class="horizontal-line"></div>
+							<li class="filter__option text--dark-color">
+								<input type="checkbox" name="" id="inspire2" class="filter__check inspire2"> <label for="inspire2"
+									class="filter__label text--dark-color">Inspire 2</label>
+							</li>
+							<div class="horizontal-line"></div>
+							<li class="filter__option text--dark-color">
+								<input type="checkbox" name="" id="mavic" class="filter__check mavic"> <label for="mavic"
+									class="filter__label text--dark-color">Mavic</label>
+							</li>
+							<div class="horizontal-line"></div>
+							<li class="filter__option text--dark-color">
+								<input type="checkbox" name="" id="phantom" class="filter__check phantom"> <label for="phantom"
+									class="filter__label text--dark-color">Phantom</label>
+							</li>
+							<div class="horizontal-line"></div>
+							<li class="filter__option text--dark-color">
+								<input type="checkbox" name="" id="typhoonq500" class="filter__check typhoonq500"> <label
+									for="typhoonq500" class="filter__label text--dark-color">Typhoon Q500</label>
+							</li>
+							<div class="horizontal-line"></div>
+							<li class="filter__option text--dark-color">
+								<input type="checkbox" name="" id="x-star" class="filter__check x-star"> <label for="x-star"
+									class="filter__label text--dark-color">X-Star</label>
+							</li>
+							<div class="horizontal-line"></div>
+							<li class="filter__option text--dark-color">
+								<input type="checkbox" name="" id="x-star-premium" class="filter__check x-star-premium"> <label
+									for="x-star-premium" class="filter__label text--dark-color">X-Star Premium</label>
+							</li>
+							<div class="horizontal-line"></div>
+						</ul>
+					</div>
+
+					<!-- Skill Level -->
+					<div class="filter__component">
+						<h2 class="menu__title">Skill Level</h2>
+						<div class="horizontal-line"></div>
+						<ul>
+							<li class="filter__option">
+								<input type="checkbox" name="" id="advanced" class="filter__check advanced">
+								<label for="advanced" class="filter__label text--dark-color">Advanced</label>
+							</li>
+							<div class="horizontal-line"></div>
+							<li class="filter__option text--dark-color">
+								<input type="checkbox" name="" id="beginner" class="filter__check beginner">
+								<label for="beginner" class="filter__label text--dark-color">Beginner</label>
+							</li>
+							<div class="horizontal-line"></div>
+							<li class="filter__option text--dark-color">
+								<input type="checkbox" name="" id="intermediate" class="filter__check intermediate">
+								<label for="intermediate" class="filter__label text--dark-color">Intermediate</label>
+							</li>
+							<div class="horizontal-line"></div>
+						</ul>
+					</div>
+
+					<!-- Type -->
+					<div class="filter__component">
+						<h2 class="menu__title">Type</h2>
+						<div class="horizontal-line"></div>
+						<ul>
+							<li class="filter__option">
+								<input type="checkbox" name="" id="hexacopters" class="filter__check hexacopters">
+								<label for="hexacopters" class="filter__label text--dark-color">Hexacopters</label>
+							</li>
+							<div class="horizontal-line"></div>
+							<li class="filter__option text--dark-color">
+								<input type="checkbox" name="" id="pocket-drones" class="filter__check pocket-drones">
+								<label for="pocket-drones" class="filter__label text--dark-color">Pocket Drones</label>
+							</li>
+							<div class="horizontal-line"></div>
+							<li class="filter__option text--dark-color">
+								<input type="checkbox" name="" id="quadcopters" class="filter__check quadcopters">
+								<label for="quadcopters" class="filter__label text--dark-color">Quadcopters</label>
+							</li>
+							<div class="horizontal-line"></div>
+							<li class="filter__option text--dark-color">
+								<input type="checkbox" name="" id="racing-drones" class="filter__check racing-drones"> <label
+									for="racing-drones" class="filter__label text--dark-color">Racing Drones</label>
+							</li>
+							<div class="horizontal-line"></div>
+						</ul>
+					</div>
+
+
+					<!-- Collections -->
+					<div class="filter__component">
+						<h2 class="text--xlarge">Collections</h2>
+						<ul>
+							<li class="filter__option">
+								<a href="" class="link--dark">Drones (28)</a>
+							</li>
+							<li class="filter__option">
+								<a href="" class="link--dark">Cameras (12)</a>
+							</li>
+							<li class="filter__option">
+								<a href="" class="link--dark">Parts + Tools (24)</a>
+							</li>
+							<li class="filter__option">
+								<a href="" class="link--dark">Accessories (92)</a>
+							</li>
+
+						</ul>
+					</div>
+
+				</div>
+			</div>
+	</section>
+
+
+
+	<!-- ========================================= -->
+	<!-- Popup Window Shopping-->
+	<!-- ====================================== -->
+
+	<!-- Drones1 -->
+	<section class="shopping popup-window" id="drones1--shopping-wd">
+		<div class="popup-window__content">
+			<span class="close-window" id="drones1--close-icon">x</span>
+			<div class="shopping__content">
+				<div class="shopping__image">
+					<input type="radio" name="icons" id="drones1--inp--img1" checked>
+					<input type="radio" name="icons" id="drones1--inp--img2">
+					<input type="radio" name="icons" id="drones1--inp--img3">
+					<input type="radio" name="icons" id="drones1--inp--img4">
+					<input type="radio" name="icons" id="drones1--inp--img5">
+					<div class="shopping__image--initial">
+						<img class="image" src="img/products/drones/drones1/drones1--img--img1.jpg" alt="">
+					</div>
+					<div class="shopping__image--main" id="drones1--img--img1">
+						<img class="image" src="img/products/drones/drones1/drones1--img--img1.jpg" alt="">
+					</div>
+					<div class="shopping__image--main" id="drones1--img--img2">
+						<img class="image" src="img/products/drones/drones1/drones1--img--img2.jpg" alt="">
+					</div>
+					<div class="shopping__image--main" id="drones1--img--img3">
+						<img class="image" src="img/products/drones/drones1/drones1--img--img3.jpg" alt="">
+					</div>
+					<div class="shopping__image--main" id="drones1--img--img4">
+						<img class="image" src="img/products/drones/drones1/drones1--img--img4.jpg" alt="">
+					</div>
+					<div class="shopping__image--main" id="drones1--img--img5">
+						<img class="image" src="img/products/drones/drones1/drones1--img--img5.jpg" alt="">
+					</div>
+					<label for="drones1--inp--img1" class="image--small" id="drones1--lbl--img1"><img class="image--thumbnail"
+							src="img/products/drones/drones1/drones1--lbl--img1.jpg" alt=""></label>
+					<label for="drones1--inp--img2" class="image--small" id="drones1--lbl--img2"><img class="image--thumbnail"
+							src="img/products/drones/drones1/drones1--lbl--img2.jpg" alt=""></label>
+					<label for="drones1--inp--img3" class="image--small" id="drones1--lbl--img3"><img class="image--thumbnail"
+							src="img/products/drones/drones1/drones1--lbl--img3.jpg" alt=""></label>
+					<label for="drones1--inp--img4" class="image--small" id="drones1--lbl--img4"><img class="image--thumbnail"
+							src="img/products/drones/drones1/drones1--lbl--img4.jpg" alt=""></label>
+					<label for="drones1--inp--img5" class="image--small" id="drones1--lbl--img5"><img class="image--thumbnail"
+							src="img/products/drones/drones1/drones1--lbl--img5.jpg" alt=""></label>
+				</div>
+				<div class="shopping__info text--dark-color">
+					<div class="shopping__info__item">
+						<h1>Mavic Pro</h1>
+						<p class="text--medium text--medium-color">by
+							<a href="" class="link--primary">DJI</a></p>
+						<p class="text--small marginy--xsmall">
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							2 reviews
+						</p>
+						<p class="text--xlarge">$1,029.00</p>
+					</div>
+
+					<div class="shopping__info__item">
+						<div class="shopping__info--quantity">
+							<div class="quantity__container">
+								<p class="text--medium text--medium-color">Quantity</p>
+								<select name="quantity" id="qty">
+									<option value="one">1</option>
+									<option value="two">2</option>
+									<option value="three">3</option>
+									<option value="four">4</option>
+									<option value="five">5</option>
+									<option value="six">6</option>
+									<option value="seven">7</option>
+									<option value="eight">8</option>
+									<option value="nine">9</option>
+									<option value="tenplus">10+</option>
+								</select>
+								<i class="fas fa-angle-down icon--dark"></i>
+							</div>
+							<a href="" class="btn--dark btn--medium">Add to cart</a>
+						</div>
+					</div>
+
+					<div class="shopping__info__item">
+						<p>The DJI Mavic Pro is a small yet powerful drone that turns the sky into your creative canvas easily and
+							without worry, helping you make every moment an aerial moment. Its compact size hides a high degree of
+							complexity that makes it one of DJI’s most sophisticated flying cameras ever. 24 high-performance
+							computing cores, an all-new transmission system with a 4.3mi (7km) range, 5 vision sensors, and a 4K
+							camera stabilized by a 3-axis mechanical gimbal, are at your command with just a push of your thumb or a
+							tap of your finger.</p>
+						<p class="marginy--small">
+							This is a demo store. You can purchase products like this from <a class="link--primary" href="">Best
+								Flight Drones</a>.</p>
+					</div>
+
+					<div class="shopping__info__item">
+						<div class="social">
+							<p class="social__title">Share this:</p>
+							<div class="social__content">
+								<a class="social__link" href="">
+									<i class="fab fa-facebook-f social__icon"></i>
+								</a>
+								<a class="social__link" href="">
+									<i class="fab fa-twitter social__icon"></i>
+								</a>
+								<a class="social__link" href="">
+									<i class="fab fa-linkedin-in social__icon"></i>
+								</a>
+								<a class="social__link" href="">
+									<i class="fab fa-pinterest-p social__icon"></i>
+								</a>
+							</div>
+						</div>
+					</div>
+					<div class="shopping__info__item"></div>
+				</div>
+			</div>
+
+		</div>
+	</section>
+
+	<!-- Drones2 -->
+	<section class="shopping popup-window" id="drones2--shopping-wd">
+		<div class="popup-window__content">
+			<span class="close-window" id="drones2--close-icon">x</span>
+			<div class="shopping__content">
+				<div class="shopping__image">
+
+					<!-- Radio buttons for colors -->
+					<input type="radio" name="drones2--shopping--color" id="drones2--shopping--color1" class="radio-button">
+					<label for="drones2--shopping--color1" class="style--color-box color--loc1--shopping white-style"></label>
+
+					<input type="radio" name="drones2--shopping--color" id="drones2--shopping--color2" class="radio-button">
+					<label for="drones2--shopping--color2" class="style--color-box color--loc2--shopping orange-style"></label>
+
+					<p class="color--text1 text--dark-color"><span class="text--bold">Color:</span> White</p>
+					<p class="color--text2 text--dark-color"><span class="text--bold">Color:</span> Orange</p>
+
+
+					<!-- Radio buttons for images -->
+					<input type="radio" name="icons" id="drones2--inp--img1" checked>
+					<input type="radio" name="icons" id="drones2--inp--img2">
+					<input type="radio" name="icons" id="drones2--inp--img3">
+					<input type="radio" name="icons" id="drones2--inp--img4">
+					<input type="radio" name="icons" id="drones2--inp--img5">
+					<div class="shopping__image--initial">
+						<img class="image" src="img/products/drones/drones2/drones2--img--img1.jpg" alt="">
+					</div>
+					<div class="shopping__image--main" id="drones2--img--img1">
+						<img class="image" src="img/products/drones/drones2/drones2--img--img1.jpg" alt="">
+					</div>
+					<div class="shopping__image--main" id="drones2--img--img2">
+						<img class="image" src="img/products/drones/drones2/drones2--img--img2.jpg" alt="">
+					</div>
+					<div class="shopping__image--main" id="drones2--img--img3">
+						<img class="image" src="img/products/drones/drones2/drones2--img--img3.jpg" alt="">
+					</div>
+					<div class="shopping__image--main" id="drones2--img--img4">
+						<img class="image" src="img/products/drones/drones2/drones2--img--img4.jpg" alt="">
+					</div>
+					<div class="shopping__image--main" id="drones2--img--img5">
+						<img class="image" src="img/products/drones/drones2/drones2--img--img5.jpg" alt="">
+					</div>
+					<label for="drones2--inp--img1" class="image--small" id="drones2--lbl--img1"><img class="image--thumbnail"
+							src="img/products/drones/drones2/drones2--lbl--img1.jpg" alt=""></label>
+					<label for="drones2--inp--img2" class="image--small" id="drones2--lbl--img2"><img class="image--thumbnail"
+							src="img/products/drones/drones2/drones2--lbl--img2.jpg" alt=""></label>
+					<label for="drones2--inp--img3" class="image--small" id="drones2--lbl--img3"><img class="image--thumbnail"
+							src="img/products/drones/drones2/drones2--lbl--img3.jpg" alt=""></label>
+					<label for="drones2--inp--img4" class="image--small" id="drones2--lbl--img4"><img class="image--thumbnail"
+							src="img/products/drones/drones2/drones2--lbl--img4.jpg" alt=""></label>
+					<label for="drones2--inp--img5" class="image--small" id="drones2--lbl--img5"><img class="image--thumbnail"
+							src="img/products/drones/drones2/drones2--lbl--img5.jpg" alt=""></label>
+				</div>
+				<div class="shopping__info text--dark-color">
+					<div class="shopping__info__item">
+						<h1>X-Star Premium</h1>
+						<p class="text--medium text--medium-color">by
+							<a href="" class="link--primary">Autel</a></p>
+						<p class="text--small marginy--xsmall">
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="far fa-star"></i>
+							1 review
+						</p>
+						<p class="text--xlarge">$899.00</p>
+					</div>
+
+					<div class="shopping__info__item">
+						<div class="shopping__info--quantity">
+							<div class="quantity__container">
+								<p class="text--medium text--medium-color">Quantity</p>
+								<select name="quantity" id="qty">
+									<option value="one">1</option>
+									<option value="two">2</option>
+									<option value="three">3</option>
+									<option value="four">4</option>
+									<option value="five">5</option>
+									<option value="six">6</option>
+									<option value="seven">7</option>
+									<option value="eight">8</option>
+									<option value="nine">9</option>
+									<option value="tenplus">10+</option>
+								</select>
+								<i class="fas fa-angle-down icon--dark"></i>
+							</div>
+							<a href="" class="btn--dark btn--medium">Add to cart</a>
+						</div>
+					</div>
+
+					<div class="shopping__info__item">
+						<p>The X-Star Premium has twice the HD Live View range compared to the X-Star, includes a larger 64-GB card,
+							and comes packed in a semi-hard, splash-proof, zippered premium case.</p>
+						<p class="marginy--small">
+							This is a demo store. You can purchase products like this from <a class="link--primary" href="">Best
+								Flight Drones</a>.</p>
+					</div>
+
+					<div class="shopping__info__item">
+						<div class="social">
+							<p class="social__title">Share this:</p>
+							<div class="social__content">
+								<a class="social__link" href="">
+									<i class="fab fa-facebook-f social__icon"></i>
+								</a>
+								<a class="social__link" href="">
+									<i class="fab fa-twitter social__icon"></i>
+								</a>
+								<a class="social__link" href="">
+									<i class="fab fa-linkedin-in social__icon"></i>
+								</a>
+								<a class="social__link" href="">
+									<i class="fab fa-pinterest-p social__icon"></i>
+								</a>
+							</div>
+						</div>
+					</div>
+					<div class="shopping__info__item"></div>
+				</div>
+			</div>
+
+		</div>
+	</section>
+
+	<!-- Drones3 -->
+	<section class="shopping popup-window" id="drones3--shopping-wd">
+		<div class="popup-window__content">
+			<span class="close-window" id="drones3--close-icon">x</span>
+			<div class="shopping__content">
+				<div class="shopping__image">
+					<input type="radio" name="icons" id="drones3--inp--img1" checked>
+					<input type="radio" name="icons" id="drones3--inp--img2">
+					<input type="radio" name="icons" id="drones3--inp--img3">
+					<input type="radio" name="icons" id="drones3--inp--img4">
+					<input type="radio" name="icons" id="drones3--inp--img5">
+					<div class="shopping__image--initial">
+						<img class="image" src="img/products/drones/drones3/drones3--img--img1.jpg" alt="">
+					</div>
+					<div class="shopping__image--main" id="drones3--img--img1">
+						<img class="image" src="img/products/drones/drones3/drones3--img--img1.jpg" alt="">
+					</div>
+					<div class="shopping__image--main" id="drones3--img--img2">
+						<img class="image" src="img/products/drones/drones3/drones3--img--img2.jpg" alt="">
+					</div>
+					<div class="shopping__image--main" id="drones3--img--img3">
+						<img class="image" src="img/products/drones/drones3/drones3--img--img3.jpg" alt="">
+					</div>
+					<div class="shopping__image--main" id="drones3--img--img4">
+						<img class="image" src="img/products/drones/drones3/drones3--img--img4.jpg" alt="">
+					</div>
+					<div class="shopping__image--main" id="drones3--img--img5">
+						<img class="image" src="img/products/drones/drones3/drones3--img--img5.jpg" alt="">
+					</div>
+					<label for="drones3--inp--img1" class="image--small" id="drones3--lbl--img1"><img class="image--thumbnail"
+							src="img/products/drones/drones3/drones3--lbl--img1.jpg" alt=""></label>
+					<label for="drones3--inp--img2" class="image--small" id="drones3--lbl--img2"><img class="image--thumbnail"
+							src="img/products/drones/drones3/drones3--lbl--img2.jpg" alt=""></label>
+					<label for="drones3--inp--img3" class="image--small" id="drones3--lbl--img3"><img class="image--thumbnail"
+							src="img/products/drones/drones3/drones3--lbl--img3.jpg" alt=""></label>
+					<label for="drones3--inp--img4" class="image--small" id="drones3--lbl--img4"><img class="image--thumbnail"
+							src="img/products/drones/drones3/drones3--lbl--img4.jpg" alt=""></label>
+					<label for="drones3--inp--img5" class="image--small" id="drones3--lbl--img5"><img class="image--thumbnail"
+							src="img/products/drones/drones3/drones3--lbl--img5.jpg" alt=""></label>
+				</div>
+				<div class="shopping__info text--dark-color">
+					<div class="shopping__info__item">
+						<h1>Inspire 1</h1>
+						<p class="text--medium text--medium-color">by
+							<a href="" class="link--primary">DJI</a></p>
+						<p class="text--small marginy--xsmall">
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star-half-alt"></i>
+							1 review
+						</p>
+						<div class="tag">
+							<p class="tag--sale style-tag--sale">Sale</p>
+							<p class="tag--cross text--medium-color text--xlarge text--line-thru">$2,899.00</p>
+							<p class="tag--price text--tag-sale-color text--xlarge">$1,999.99</p>
+						</div>
+					</div>
+
+					<div class="shopping__info__item">
+						<div class="shopping__info--quantity">
+							<div class="quantity__container">
+								<p class="text--medium text--medium-color">Quantity</p>
+								<select name="quantity" id="qty">
+									<option value="one">1</option>
+									<option value="two">2</option>
+									<option value="three">3</option>
+									<option value="four">4</option>
+									<option value="five">5</option>
+									<option value="six">6</option>
+									<option value="seven">7</option>
+									<option value="eight">8</option>
+									<option value="nine">9</option>
+									<option value="tenplus">10+</option>
+								</select>
+								<i class="fas fa-angle-down icon--dark"></i>
+							</div>
+							<a href="" class="btn--dark btn--medium">Add to cart</a>
+						</div>
+					</div>
+
+					<div class="shopping__info__item">
+						<p>Imagine holding the future in your hands. Designed to be powerful while lightweight, flexible while
+							providing the stability you need, the Inspire 1 is DJI’s most advanced complete package. All of the latest
+							aerial technology is packed into one simple, ready-to-fly system, putting you in the sky within minutes.
+						</p>
+						<p class="marginy--small">
+							This is a demo store. You can purchase products like this from <a class="link--primary" href="">Best
+								Flight Drones</a>.</p>
+					</div>
+
+					<div class="shopping__info__item">
+						<div class="social">
+							<p class="social__title">Share this:</p>
+							<div class="social__content">
+								<a class="social__link" href="">
+									<i class="fab fa-facebook-f social__icon"></i>
+								</a>
+								<a class="social__link" href="">
+									<i class="fab fa-twitter social__icon"></i>
+								</a>
+								<a class="social__link" href="">
+									<i class="fab fa-linkedin-in social__icon"></i>
+								</a>
+								<a class="social__link" href="">
+									<i class="fab fa-pinterest-p social__icon"></i>
+								</a>
+							</div>
+						</div>
+					</div>
+					<div class="shopping__info__item"></div>
+				</div>
+			</div>
+
+		</div>
+	</section>
+
+	<!-- Drones4 -->
+	<section class="shopping popup-window" id="drones4--shopping-wd">
+		<div class="popup-window__content">
+			<span class="close-window" id="drones4--close-icon">x</span>
+			<div class="shopping__content">
+				<div class="shopping__image">
+					<input type="radio" name="icons" id="drones4--inp--img1" checked>
+					<div class="shopping__image--initial">
+						<img class="image" src="img/products/drones/drones4/drones4--img--img1.jpg" alt="">
+					</div>
+					<div class="shopping__image--main" id="drones4--img--img1">
+						<img class="image" src="img/products/drones/drones4/drones4--img--img1.jpg" alt="">
+					</div>
+					<label for="drones4--inp--img1" class="image--small" id="drones4--lbl--img1"><img class="image--thumbnail"
+							src="img/products/drones/drones4/drones4--lbl--img1.jpg" alt=""></label>
+				</div>
+				<div class="shopping__info text--dark-color">
+					<div class="shopping__info__item">
+						<h1>Typhoon Q500</h1>
+						<p class="text--medium text--medium-color">by
+							<a href="" class="link--primary">Yuneec</a></p>
+						<p class="text--small marginy--xsmall">
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star-half-alt"></i>
+							2 reviews
+						</p>
+						<div class="tag">
+							<p class="tag--sale style-tag--sold-out">Sold out</p>
+							<p class="tag--price text--primary-color text--xlarge">$599.00</p>
+						</div>
+					</div>
+
+					<div class="shopping__info__item">
+						<div class="shopping__info--quantity">
+							<div class="quantity__container">
+								<p class="text--medium text--medium-color">Quantity</p>
+								<select name="quantity" id="qty">
+									<option value="one">1</option>
+									<option value="two">2</option>
+									<option value="three">3</option>
+									<option value="four">4</option>
+									<option value="five">5</option>
+									<option value="six">6</option>
+									<option value="seven">7</option>
+									<option value="eight">8</option>
+									<option value="nine">9</option>
+									<option value="tenplus">10+</option>
+								</select>
+								<i class="fas fa-angle-down icon--dark"></i>
+							</div>
+							<a href="" class="btn--dark btn--medium">Add to cart</a>
+						</div>
+					</div>
+
+					<div class="shopping__info__item">
+						<p>A completion level of ready-to-fly (RTF) means this version of the Q500 Typhoon Quadcopter with CGO3-GB
+							Camera, SteadyGrip, and Camera Aluminum Case Camera and Aluminum Case from Yuneec comes factory-assembled
+							and that a pre-bound transmitter/ground station unit (radio controller) is included. More than just an RC
+							multi-rotor, the Q500 Typhoon is designed for APV - aerial photography and video. To this end, it
+							incorporates the CGO3-GB, a 3-axis gimbal-stabilized camera with 4K video recording, 1080p video recording
+							at up to 120 fps, and shoots photos at 12-megapixels.</p>
+						<p class="marginy--small">
+							This is a demo store. You can purchase products like this from <a class="link--primary" href="">Best
+								Flight Drones</a>.</p>
+					</div>
+
+					<div class="shopping__info__item">
+						<div class="social">
+							<p class="social__title">Share this:</p>
+							<div class="social__content">
+								<a class="social__link" href="">
+									<i class="fab fa-facebook-f social__icon"></i>
+								</a>
+								<a class="social__link" href="">
+									<i class="fab fa-twitter social__icon"></i>
+								</a>
+								<a class="social__link" href="">
+									<i class="fab fa-linkedin-in social__icon"></i>
+								</a>
+								<a class="social__link" href="">
+									<i class="fab fa-pinterest-p social__icon"></i>
+								</a>
+							</div>
+						</div>
+					</div>
+					<div class="shopping__info__item"></div>
+				</div>
+			</div>
+
+		</div>
+	</section>
+
+	<!-- Drones5 -->
+	<section class="shopping popup-window" id="drones5--shopping-wd">
+		<div class="popup-window__content">
+			<span class="close-window" id="drones5--close-icon">x</span>
+			<div class="shopping__content">
+				<div class="shopping__image">
+
+					<!-- Radio buttons for colors -->
+					<input type="radio" name="drones5--shopping--color" id="drones5--shopping--color1" class="radio-button">
+					<label for="drones5--shopping--color1" class="style--color-box color--loc1--shopping white-style"></label>
+
+					<input type="radio" name="drones5--shopping--color" id="drones5--shopping--color2" class="radio-button">
+					<label for="drones5--shopping--color2" class="style--color-box color--loc2--shopping orange-style"></label>
+
+					<p class="color--text1 text--dark-color"><span class="text--bold">Color:</span> White</p>
+					<p class="color--text2 text--dark-color"><span class="text--bold">Color:</span> Orange</p>
+
+					<input type="radio" name="icons" id="drones5--inp--img1" checked>
+					<input type="radio" name="icons" id="drones5--inp--img2">
+					<div class="shopping__image--initial">
+						<img class="image" src="img/products/drones/drones5/drones5--img--img1.jpg" alt="">
+					</div>
+					<div class="shopping__image--main" id="drones5--img--img1">
+						<img class="image" src="img/products/drones/drones5/drones5--img--img1.jpg" alt="">
+					</div>
+					<div class="shopping__image--main" id="drones5--img--img2">
+						<img class="image" src="img/products/drones/drones5/drones5--img--img2.jpg" alt="">
+					</div>
+					<label for="drones5--inp--img1" class="image--small" id="drones5--lbl--img1"><img class="image--thumbnail"
+							src="img/products/drones/drones5/drones5--lbl--img1.jpg" alt=""></label>
+					<label for="drones5--inp--img2" class="image--small" id="drones5--lbl--img2"><img class="image--thumbnail"
+							src="img/products/drones/drones5/drones5--lbl--img2.jpg" alt=""></label>
+				</div>
+				<div class="shopping__info text--dark-color">
+					<div class="shopping__info__item">
+						<h1>X-Star</h1>
+						<p class="text--medium text--medium-color">by
+							<a href="" class="link--primary">Autel</a></p>
+						<p class="text--small marginy--xsmall">
+							<i class="far fa-star"></i>
+							<i class="far fa-star"></i>
+							<i class="far fa-star"></i>
+							<i class="far fa-star"></i>
+							<i class="far fa-star"></i>
+							No reviews
+						</p>
+						<p class="text--xlarge">$699.00</p>
+					</div>
+
+					<div class="shopping__info__item">
+						<div class="shopping__info--quantity">
+							<div class="quantity__container">
+								<p class="text--medium text--medium-color">Quantity</p>
+								<select name="quantity" id="qty">
+									<option value="one">1</option>
+									<option value="two">2</option>
+									<option value="three">3</option>
+									<option value="four">4</option>
+									<option value="five">5</option>
+									<option value="six">6</option>
+									<option value="seven">7</option>
+									<option value="eight">8</option>
+									<option value="nine">9</option>
+									<option value="tenplus">10+</option>
+								</select>
+								<i class="fas fa-angle-down icon--dark"></i>
+							</div>
+							<a href="" class="btn--dark btn--medium">Add to cart</a>
+						</div>
+					</div>
+
+					<div class="shopping__info__item">
+						<p>The X-Star is a sophisticated yet amazingly easy-to-fly quadcopter designed for superb aerial imagery.
+							The 4K camera and 3-axis gimbal can record crystal-clear, smooth Ultra HD videos or take 12-MP photos with
+							Wi-Fi HD Live View up to 0.6 miles away. This drone is ready to fly out of the box, and can be flown with
+							or without the help of the free Starlink mobile app. Powered by an intelligent flight control system, dual
+							GPS and GLONASS satellite navigation and aided by the Starpoint Positioning System, the drone stays safe
+							and stable, even indoors or at low altitudes. Where other drones might become erratic or fly away when
+							there is magnetic interference, the X-Star is equipped with our exclusive SecureFly technology to help
+							your drone come back home safely.</p>
+						<p class="marginy--small">
+							This is a demo store. You can purchase products like this from <a class="link--primary" href="">Best
+								Flight Drones</a>.</p>
+					</div>
+
+					<div class="shopping__info__item">
+						<div class="social">
+							<p class="social__title">Share this:</p>
+							<div class="social__content">
+								<a class="social__link" href="">
+									<i class="fab fa-facebook-f social__icon"></i>
+								</a>
+								<a class="social__link" href="">
+									<i class="fab fa-twitter social__icon"></i>
+								</a>
+								<a class="social__link" href="">
+									<i class="fab fa-linkedin-in social__icon"></i>
+								</a>
+								<a class="social__link" href="">
+									<i class="fab fa-pinterest-p social__icon"></i>
+								</a>
+							</div>
+						</div>
+					</div>
+					<div class="shopping__info__item"></div>
+				</div>
+			</div>
+
+		</div>
+	</section>
+
+	<!-- Drones6 -->
+	<section class="shopping popup-window" id="drones6--shopping-wd">
+		<div class="popup-window__content">
+			<span class="close-window" id="drones6--close-icon">x</span>
+			<div class="shopping__content">
+				<div class="shopping__image">
+					<input type="radio" name="icons" id="drones6--inp--img1" checked>
+					<input type="radio" name="icons" id="drones6--inp--img2">
+					<input type="radio" name="icons" id="drones6--inp--img3">
+					<div class="shopping__image--initial">
+						<img class="image" src="img/products/drones/drones6/drones6--img--img1.jpg" alt="">
+					</div>
+					<div class="shopping__image--main" id="drones6--img--img1">
+						<img class="image" src="img/products/drones/drones6/drones6--img--img1.jpg" alt="">
+					</div>
+					<div class="shopping__image--main" id="drones6--img--img2">
+						<img class="image" src="img/products/drones/drones6/drones6--img--img2.jpg" alt="">
+					</div>
+					<div class="shopping__image--main" id="drones6--img--img3">
+						<img class="image" src="img/products/drones/drones6/drones6--img--img3.jpg" alt="">
+					</div>
+					<label for="drones6--inp--img1" class="image--small" id="drones6--lbl--img1"><img class="image--thumbnail"
+							src="img/products/drones/drones6/drones6--lbl--img1.jpg" alt=""></label>
+					<label for="drones6--inp--img2" class="image--small" id="drones6--lbl--img2"><img class="image--thumbnail"
+							src="img/products/drones/drones6/drones6--lbl--img2.jpg" alt=""></label>
+					<label for="drones6--inp--img3" class="image--small" id="drones6--lbl--img3"><img class="image--thumbnail"
+							src="img/products/drones/drones6/drones6--lbl--img3.jpg" alt=""></label>
+				</div>
+				<div class="shopping__info text--dark-color">
+					<div class="shopping__info__item">
+						<h1>A.R. Drone 2.0 Elite Jungle Edition</h1>
+						<p class="text--medium text--medium-color">by
+							<a href="" class="link--primary">Parrot</a></p>
+						<p class="text--small marginy--xsmall">
+							<i class="far fa-star"></i>
+							<i class="far fa-star"></i>
+							<i class="far fa-star"></i>
+							<i class="far fa-star"></i>
+							<i class="far fa-star"></i>
+							No reviews
+						</p>
+						<p class="text--xlarge">$249.00</p>
+					</div>
+
+					<div class="shopping__info__item">
+						<div class="shopping__info--quantity">
+							<div class="quantity__container">
+								<p class="text--medium text--medium-color">Quantity</p>
+								<select name="quantity" id="qty">
+									<option value="one">1</option>
+									<option value="two">2</option>
+									<option value="three">3</option>
+									<option value="four">4</option>
+									<option value="five">5</option>
+									<option value="six">6</option>
+									<option value="seven">7</option>
+									<option value="eight">8</option>
+									<option value="nine">9</option>
+									<option value="tenplus">10+</option>
+								</select>
+								<i class="fas fa-angle-down icon--dark"></i>
+							</div>
+							<a href="" class="btn--dark btn--medium">Add to cart</a>
+						</div>
+					</div>
+
+					<div class="shopping__info__item">
+						<p>Includes one 1000mAh lithium polymer battery, a high definition camera with a video recording capacity,
+							plus flight data sharing, a patented piloting mode, and an innovative pressure sensor for increased
+							stability at any altitude.</p>
+						<p class="marginy--small">
+							This is a demo store. You can purchase products like this from <a class="link--primary" href="">Best
+								Flight Drones</a>.</p>
+					</div>
+
+					<div class="shopping__info__item">
+						<div class="social">
+							<p class="social__title">Share this:</p>
+							<div class="social__content">
+								<a class="social__link" href="">
+									<i class="fab fa-facebook-f social__icon"></i>
+								</a>
+								<a class="social__link" href="">
+									<i class="fab fa-twitter social__icon"></i>
+								</a>
+								<a class="social__link" href="">
+									<i class="fab fa-linkedin-in social__icon"></i>
+								</a>
+								<a class="social__link" href="">
+									<i class="fab fa-pinterest-p social__icon"></i>
+								</a>
+							</div>
+						</div>
+					</div>
+					<div class="shopping__info__item"></div>
+				</div>
+			</div>
+
+		</div>
+	</section>
+
+	<!-- Drones7 -->
+	<section class="shopping popup-window" id="drones7--shopping-wd">
+		<div class="popup-window__content">
+			<span class="close-window" id="drones7--close-icon">x</span>
+			<div class="shopping__content">
+				<div class="shopping__image">
+					<input type="radio" name="icons" id="drones7--inp--img1" checked>
+					<input type="radio" name="icons" id="drones7--inp--img2">
+					<input type="radio" name="icons" id="drones7--inp--img3">
+					<input type="radio" name="icons" id="drones7--inp--img4">
+					<div class="shopping__image--initial">
+						<img class="image" src="img/products/drones/drones7/drones7--img--img1.jpg" alt="">
+					</div>
+					<div class="shopping__image--main" id="drones7--img--img1">
+						<img class="image" src="img/products/drones/drones7/drones7--img--img1.jpg" alt="">
+					</div>
+					<div class="shopping__image--main" id="drones7--img--img2">
+						<img class="image" src="img/products/drones/drones7/drones7--img--img2.jpg" alt="">
+					</div>
+					<div class="shopping__image--main" id="drones7--img--img3">
+						<img class="image" src="img/products/drones/drones7/drones7--img--img3.jpg" alt="">
+					</div>
+					<div class="shopping__image--main" id="drones7--img--img4">
+						<img class="image" src="img/products/drones/drones7/drones7--img--img4.jpg" alt="">
+					</div>
+					<label for="drones7--inp--img1" class="image--small" id="drones7--lbl--img1"><img class="image--thumbnail"
+							src="img/products/drones/drones7/drones7--lbl--img1.jpg" alt=""></label>
+					<label for="drones7--inp--img2" class="image--small" id="drones7--lbl--img2"><img class="image--thumbnail"
+							src="img/products/drones/drones7/drones7--lbl--img2.jpg" alt=""></label>
+					<label for="drones7--inp--img3" class="image--small" id="drones7--lbl--img3"><img class="image--thumbnail"
+							src="img/products/drones/drones7/drones7--lbl--img3.jpg" alt=""></label>
+					<label for="drones7--inp--img4" class="image--small" id="drones7--lbl--img4"><img class="image--thumbnail"
+							src="img/products/drones/drones7/drones7--lbl--img4.jpg" alt=""></label>
+				</div>
+				<div class="shopping__info text--dark-color">
+					<div class="shopping__info__item">
+						<h1>Phantom 3 Professional</h1>
+						<p class="text--medium text--medium-color">by
+							<a href="" class="link--primary">DJI</a></p>
+						<p class="text--small marginy--xsmall">
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							2 reviews
+						</p>
+						<p class="text--xlarge">$999.00</p>
+					</div>
+
+					<div class="shopping__info__item">
+						<div class="shopping__info--quantity">
+							<div class="quantity__container">
+								<p class="text--medium text--medium-color">Quantity</p>
+								<select name="quantity" id="qty">
+									<option value="one">1</option>
+									<option value="two">2</option>
+									<option value="three">3</option>
+									<option value="four">4</option>
+									<option value="five">5</option>
+									<option value="six">6</option>
+									<option value="seven">7</option>
+									<option value="eight">8</option>
+									<option value="nine">9</option>
+									<option value="tenplus">10+</option>
+								</select>
+								<i class="fas fa-angle-down icon--dark"></i>
+							</div>
+							<a href="" class="btn--dark btn--medium">Add to cart</a>
+						</div>
+					</div>
+
+					<div class="shopping__info__item">
+						<p>Your Phantom 3 Professional fits into your life and makes flying remarkably intuitive and easy. From
+							takeoff to landing, it is completely under your control, responding to your commands while automatically
+							handling the most complex aspects of safe, stable flight.</p>
+						<p class="marginy--small">
+							This is a demo store. You can purchase products like this from <a class="link--primary" href="">Best
+								Flight Drones</a>.</p>
+					</div>
+
+					<div class="shopping__info__item">
+						<div class="social">
+							<p class="social__title">Share this:</p>
+							<div class="social__content">
+								<a class="social__link" href="">
+									<i class="fab fa-facebook-f social__icon"></i>
+								</a>
+								<a class="social__link" href="">
+									<i class="fab fa-twitter social__icon"></i>
+								</a>
+								<a class="social__link" href="">
+									<i class="fab fa-linkedin-in social__icon"></i>
+								</a>
+								<a class="social__link" href="">
+									<i class="fab fa-pinterest-p social__icon"></i>
+								</a>
+							</div>
+						</div>
+					</div>
+					<div class="shopping__info__item"></div>
+				</div>
+			</div>
+
+		</div>
+	</section>
+
+	<!-- Drones8 -->
+	<section class="shopping popup-window" id="drones8--shopping-wd">
+		<div class="popup-window__content">
+			<span class="close-window" id="drones8--close-icon">x</span>
+			<div class="shopping__content">
+				<div class="shopping__image">
+
+					<!-- Radio buttons for colors -->
+					<input type="radio" name="drones8--shopping--color" id="drones8--shopping--color1" class="radio-button">
+					<label for="drones8--shopping--color1" class="style--color-box color--loc1--shopping cian-style"></label>
+
+					<input type="radio" name="drones8--shopping--color" id="drones8--shopping--color2" class="radio-button">
+					<label for="drones8--shopping--color2" class="style--color-box color--loc2--shopping red-style"></label>
+
+					<p class="color--text1 text--dark-color"><span class="text--bold">Color:</span> Cian</p>
+					<p class="color--text2 text--dark-color"><span class="text--bold">Color:</span> Red</p>
+
+					<input type="radio" name="icons" id="drones8--inp--img1" checked>
+					<input type="radio" name="icons" id="drones8--inp--img2">
+					<input type="radio" name="icons" id="drones8--inp--img3">
+					<input type="radio" name="icons" id="drones8--inp--img4">
+					<div class="shopping__image--initial">
+						<img class="image" src="img/products/drones/drones8/drones8--img--img1.jpg" alt="">
+					</div>
+					<div class="shopping__image--main" id="drones8--img--img1">
+						<img class="image" src="img/products/drones/drones8/drones8--img--img1.jpg" alt="">
+					</div>
+					<div class="shopping__image--main" id="drones8--img--img2">
+						<img class="image" src="img/products/drones/drones8/drones8--img--img2.jpg" alt="">
+					</div>
+					<div class="shopping__image--main" id="drones8--img--img3">
+						<img class="image" src="img/products/drones/drones8/drones8--img--img3.jpg" alt="">
+					</div>
+					<div class="shopping__image--main" id="drones8--img--img4">
+						<img class="image" src="img/products/drones/drones8/drones8--img--img4.jpg" alt="">
+					</div>
+					<label for="drones8--inp--img1" class="image--small" id="drones8--lbl--img1"><img class="image--thumbnail"
+							src="img/products/drones/drones8/drones8--lbl--img1.jpg" alt=""></label>
+					<label for="drones8--inp--img2" class="image--small" id="drones8--lbl--img2"><img class="image--thumbnail"
+							src="img/products/drones/drones8/drones8--lbl--img2.jpg" alt=""></label>
+					<label for="drones8--inp--img3" class="image--small" id="drones8--lbl--img3"><img class="image--thumbnail"
+							src="img/products/drones/drones8/drones8--lbl--img3.jpg" alt=""></label>
+					<label for="drones8--inp--img4" class="image--small" id="drones8--lbl--img4"><img class="image--thumbnail"
+							src="img/products/drones/drones8/drones8--lbl--img4.jpg" alt=""></label>
+				</div>
+				<div class="shopping__info text--dark-color">
+					<div class="shopping__info__item">
+						<h1>Bebop</h1>
+						<p class="text--medium text--medium-color">by
+							<a href="" class="link--primary">Parrot</a></p>
+						<p class="text--small marginy--xsmall">
+							<i class="far fa-star"></i>
+							<i class="far fa-star"></i>
+							<i class="far fa-star"></i>
+							<i class="far fa-star"></i>
+							<i class="far fa-star"></i>
+							No reviews
+						</p>
+						<p class="text--xlarge">$399.00</p>
+					</div>
+
+					<div class="shopping__info__item">
+						<div class="shopping__info--quantity">
+							<div class="quantity__container">
+								<p class="text--medium text--medium-color">Quantity</p>
+								<select name="quantity" id="qty">
+									<option value="one">1</option>
+									<option value="two">2</option>
+									<option value="three">3</option>
+									<option value="four">4</option>
+									<option value="five">5</option>
+									<option value="six">6</option>
+									<option value="seven">7</option>
+									<option value="eight">8</option>
+									<option value="nine">9</option>
+									<option value="tenplus">10+</option>
+								</select>
+								<i class="fas fa-angle-down icon--dark"></i>
+							</div>
+							<a href="" class="btn--dark btn--medium">Add to cart</a>
+						</div>
+					</div>
+
+					<div class="shopping__info__item">
+						<p>Parrot Bebop Drone produces the best flight performance ever seen in a leisure drone. The feather-weight
+							ABS reinforced structure makes Parrot Bebop Drone robust and safe. In case of an emergency, the emergency
+							function automatically stops the propellers and lands the drone. EPP hulls are included in the pack and
+							ensure that indoor flights are safer.</p>
+						<p class="marginy--small">
+							This is a demo store. You can purchase products like this from <a class="link--primary" href="">Best
+								Flight Drones</a>.</p>
+					</div>
+
+					<div class="shopping__info__item">
+						<div class="social">
+							<p class="social__title">Share this:</p>
+							<div class="social__content">
+								<a class="social__link" href="">
+									<i class="fab fa-facebook-f social__icon"></i>
+								</a>
+								<a class="social__link" href="">
+									<i class="fab fa-twitter social__icon"></i>
+								</a>
+								<a class="social__link" href="">
+									<i class="fab fa-linkedin-in social__icon"></i>
+								</a>
+								<a class="social__link" href="">
+									<i class="fab fa-pinterest-p social__icon"></i>
+								</a>
+							</div>
+						</div>
+					</div>
+					<div class="shopping__info__item"></div>
+				</div>
+			</div>
+
+		</div>
+	</section>
+
+	<!-- Drones9 -->
+	<section class="shopping popup-window" id="drones9--shopping-wd">
+		<div class="popup-window__content">
+			<span class="close-window" id="drones9--close-icon">x</span>
+			<div class="shopping__content">
+				<div class="shopping__image">
+
+					<!-- Radio buttons for colors -->
+					<input type="radio" name="drones9--shopping--color" id="drones9--shopping--color1" class="radio-button">
+					<label for="drones9--shopping--color1" class="style--color-box color--loc1--shopping red-style"></label>
+
+					<input type="radio" name="drones9--shopping--color" id="drones9--shopping--color2" class="radio-button">
+					<label for="drones9--shopping--color2" class="style--color-box color--loc2--shopping white-style"></label>
+
+					<p class="color--text1 text--dark-color"><span class="text--bold">Color:</span> Red</p>
+					<p class="color--text2 text--dark-color"><span class="text--bold">Color:</span> White</p>
+
+					<input type="radio" name="icons" id="drones9--inp--img1" checked>
+					<input type="radio" name="icons" id="drones9--inp--img2">
+					<input type="radio" name="icons" id="drones9--inp--img3">
+					<input type="radio" name="icons" id="drones9--inp--img4">
+					<div class="shopping__image--initial">
+						<img class="image" src="img/products/drones/drones9/drones9--img--img1.jpg" alt="">
+					</div>
+					<div class="shopping__image--main" id="drones9--img--img1">
+						<img class="image" src="img/products/drones/drones9/drones9--img--img1.jpg" alt="">
+					</div>
+					<div class="shopping__image--main" id="drones9--img--img2">
+						<img class="image" src="img/products/drones/drones9/drones9--img--img2.jpg" alt="">
+					</div>
+					<div class="shopping__image--main" id="drones9--img--img3">
+						<img class="image" src="img/products/drones/drones9/drones9--img--img3.jpg" alt="">
+					</div>
+					<div class="shopping__image--main" id="drones9--img--img4">
+						<img class="image" src="img/products/drones/drones9/drones9--img--img4.jpg" alt="">
+					</div>
+					<label for="drones9--inp--img1" class="image--small" id="drones9--lbl--img1"><img class="image--thumbnail"
+							src="img/products/drones/drones9/drones9--lbl--img1.jpg" alt=""></label>
+					<label for="drones9--inp--img2" class="image--small" id="drones9--lbl--img2"><img class="image--thumbnail"
+							src="img/products/drones/drones9/drones9--lbl--img2.jpg" alt=""></label>
+					<label for="drones9--inp--img3" class="image--small" id="drones9--lbl--img3"><img class="image--thumbnail"
+							src="img/products/drones/drones9/drones9--lbl--img3.jpg" alt=""></label>
+					<label for="drones9--inp--img4" class="image--small" id="drones9--lbl--img4"><img class="image--thumbnail"
+							src="img/products/drones/drones9/drones9--lbl--img4.jpg" alt=""></label>
+				</div>
+				<div class="shopping__info text--dark-color">
+					<div class="shopping__info__item">
+						<h1>Bebop 2</h1>
+						<p class="text--medium text--medium-color">by
+							<a href="" class="link--primary">Parrot</a></p>
+						<p class="text--small marginy--xsmall">
+							<i class="far fa-star"></i>
+							<i class="far fa-star"></i>
+							<i class="far fa-star"></i>
+							<i class="far fa-star"></i>
+							<i class="far fa-star"></i>
+							No reviews
+						</p>
+						<p class="text--xlarge">$549.00</p>
+					</div>
+
+					<div class="shopping__info__item">
+						<div class="shopping__info--quantity">
+							<div class="quantity__container">
+								<p class="text--medium text--medium-color">Quantity</p>
+								<select name="quantity" id="qty">
+									<option value="one">1</option>
+									<option value="two">2</option>
+									<option value="three">3</option>
+									<option value="four">4</option>
+									<option value="five">5</option>
+									<option value="six">6</option>
+									<option value="seven">7</option>
+									<option value="eight">8</option>
+									<option value="nine">9</option>
+									<option value="tenplus">10+</option>
+								</select>
+								<i class="fas fa-angle-down icon--dark"></i>
+							</div>
+							<a href="" class="btn--dark btn--medium">Add to cart</a>
+						</div>
+					</div>
+
+					<div class="shopping__info__item">
+						<p>Take control of Bebop 2 with intuitive controls. Two extremely precise joysticks control the drone. A
+							further two can be used to adjust the angle of the camera and navigation through the FreeFlight 3 App.
+							Take pictures and record videos at the touch of a button.</p>
+						<p class="marginy--small">
+							This is a demo store. You can purchase products like this from <a class="link--primary" href="">Best
+								Flight Drones</a>.</p>
+					</div>
+
+					<div class="shopping__info__item">
+						<div class="social">
+							<p class="social__title">Share this:</p>
+							<div class="social__content">
+								<a class="social__link" href="">
+									<i class="fab fa-facebook-f social__icon"></i>
+								</a>
+								<a class="social__link" href="">
+									<i class="fab fa-twitter social__icon"></i>
+								</a>
+								<a class="social__link" href="">
+									<i class="fab fa-linkedin-in social__icon"></i>
+								</a>
+								<a class="social__link" href="">
+									<i class="fab fa-pinterest-p social__icon"></i>
+								</a>
+							</div>
+						</div>
+					</div>
+					<div class="shopping__info__item"></div>
+				</div>
+			</div>
+
+		</div>
+	</section>
+
+
+	<!-- Drones13 -->
+	<section class="shopping popup-window" id="drones13--shopping-wd">
+		<div class="popup-window__content">
+			<span class="close-window" id="drones13--close-icon">x</span>
+			<div class="shopping__content">
+				<div class="shopping__image">
+
+					<!-- Radio buttons for colors -->
+					<input type="radio" name="drones13--shopping--color" id="drones13--shopping--color1" class="radio-button">
+					<label for="drones13--shopping--color1"
+						class="style--color-box color--loc1--shopping black-red-style"></label>
+
+					<input type="radio" name="drones13--shopping--color" id="drones13--shopping--color2" class="radio-button">
+					<label for="drones13--shopping--color2"
+						class="style--color-box color--loc2--shopping white-cian-style"></label>
+
+					<p class="color--text1 text--dark-color"><span class="text--bold">Color:</span> Black & Red</p>
+					<p class="color--text2 text--dark-color"><span class="text--bold">Color:</span> White & Cyan</p>
+
+					<input type="radio" name="icons" id="drones13--inp--img1" checked>
+					<input type="radio" name="icons" id="drones13--inp--img2">
+					<input type="radio" name="icons" id="drones13--inp--img3">
+					<input type="radio" name="icons" id="drones13--inp--img4">
+					<div class="shopping__image--initial">
+						<img class="image" src="img/products/drones/drones13/drones13--img--img1.jpg" alt="">
+					</div>
+					<div class="shopping__image--main" id="drones13--img--img1">
+						<img class="image" src="img/products/drones/drones13/drones13--img--img1.jpg" alt="">
+					</div>
+					<div class="shopping__image--main" id="drones13--img--img2">
+						<img class="image" src="img/products/drones/drones13/drones13--img--img2.jpg" alt="">
+					</div>
+					<div class="shopping__image--main" id="drones13--img--img3">
+						<img class="image" src="img/products/drones/drones13/drones13--img--img3.jpg" alt="">
+					</div>
+					<div class="shopping__image--main" id="drones13--img--img4">
+						<img class="image" src="img/products/drones/drones13/drones13--img--img4.jpg" alt="">
+					</div>
+					<label for="drones13--inp--img1" class="image--small" id="drones13--lbl--img1"><img class="image--thumbnail"
+							src="img/products/drones/drones13/drones13--lbl--img1.jpg" alt=""></label>
+					<label for="drones13--inp--img2" class="image--small" id="drones13--lbl--img2"><img class="image--thumbnail"
+							src="img/products/drones/drones13/drones13--lbl--img2.jpg" alt=""></label>
+					<label for="drones13--inp--img3" class="image--small" id="drones13--lbl--img3"><img class="image--thumbnail"
+							src="img/products/drones/drones13/drones13--lbl--img3.jpg" alt=""></label>
+					<label for="drones13--inp--img4" class="image--small" id="drones13--lbl--img4"><img class="image--thumbnail"
+							src="img/products/drones/drones13/drones13--lbl--img4.jpg" alt=""></label>
+				</div>
+				<div class="shopping__info text--dark-color">
+					<div class="shopping__info__item">
+						<h1>GhostDrone 2.0 Aerial</h1>
+						<p class="text--medium text--medium-color">by
+							<a href="" class="link--primary">eHang</a></p>
+						<p class="text--small marginy--xsmall">
+							<i class="far fa-star"></i>
+							<i class="far fa-star"></i>
+							<i class="far fa-star"></i>
+							<i class="far fa-star"></i>
+							<i class="far fa-star"></i>
+							No reviews
+						</p>
+						<p class="text--xlarge">$399.00</p>
+					</div>
+
+					<div class="shopping__info__item">
+						<div class="shopping__info--quantity">
+							<div class="quantity__container">
+								<p class="text--medium text--medium-color">Quantity</p>
+								<select name="quantity" id="qty">
+									<option value="one">1</option>
+									<option value="two">2</option>
+									<option value="three">3</option>
+									<option value="four">4</option>
+									<option value="five">5</option>
+									<option value="six">6</option>
+									<option value="seven">7</option>
+									<option value="eight">8</option>
+									<option value="nine">9</option>
+									<option value="tenplus">10+</option>
+								</select>
+								<i class="fas fa-angle-down icon--dark"></i>
+							</div>
+							<a href="" class="btn--dark btn--medium">Add to cart</a>
+						</div>
+					</div>
+
+					<div class="shopping__info__item">
+						<p>Easiest-to-fly drone in the world, requires only an Android or iOS device and a small G-Box to fly Ghost
+							Drone (G-Box included). Fly for up to 25 minutes on a single charge with over a half mile (1 kilometer)
+							range. Self-tightening propellers are mounted on high-efficiency downward facing brushless motors to
+							increase stability and weather resistance. Includes fully stabilized 3-axis aircraft grade aluminum gimbal
+							with proprietary Ehang 4k Sports camera which shoots in 4k video, also compatible with GoPro Hero 4, Hero
+							3+, Hero 3 and other action cameras.</p>
+						<p class="marginy--small">
+							This is a demo store. You can purchase products like this from <a class="link--primary" href="">Best
+								Flight Drones</a>.</p>
+					</div>
+
+					<div class="shopping__info__item">
+						<div class="social">
+							<p class="social__title">Share this:</p>
+							<div class="social__content">
+								<a class="social__link" href="">
+									<i class="fab fa-facebook-f social__icon"></i>
+								</a>
+								<a class="social__link" href="">
+									<i class="fab fa-twitter social__icon"></i>
+								</a>
+								<a class="social__link" href="">
+									<i class="fab fa-linkedin-in social__icon"></i>
+								</a>
+								<a class="social__link" href="">
+									<i class="fab fa-pinterest-p social__icon"></i>
+								</a>
+							</div>
+						</div>
+					</div>
+					<div class="shopping__info__item"></div>
+				</div>
+			</div>
+
+		</div>
+	</section>
+
+
+	<!-- Drones14 -->
+	<section class="shopping popup-window" id="drones14--shopping-wd">
+		<div class="popup-window__content">
+			<span class="close-window" id="drones14--close-icon">x</span>
+			<div class="shopping__content">
+				<div class="shopping__image">
+
+					<!-- Radio buttons for colors -->
+					<input type="radio" name="drones14--shopping--color" id="drones14--shopping--color1" class="radio-button">
+					<label for="drones14--shopping--color1"
+						class="style--color-box color--loc1--shopping black-red-style"></label>
+
+					<input type="radio" name="drones14--shopping--color" id="drones14--shopping--color2" class="radio-button">
+					<label for="drones14--shopping--color2"
+						class="style--color-box color--loc2--shopping white-cian-style"></label>
+
+					<p class="color--text1 text--dark-color"><span class="text--bold">Color:</span> Black & Red</p>
+					<p class="color--text2 text--dark-color"><span class="text--bold">Color:</span> White & Cian</p>
+
+					<input type="radio" name="icons" id="drones14--inp--img1" checked>
+					<input type="radio" name="icons" id="drones14--inp--img2">
+					<input type="radio" name="icons" id="drones14--inp--img3">
+					<input type="radio" name="icons" id="drones14--inp--img4">
+					<div class="shopping__image--initial">
+						<img class="image" src="img/products/drones/drones14/drones14--img--img1.jpg" alt="">
+					</div>
+					<div class="shopping__image--main" id="drones14--img--img1">
+						<img class="image" src="img/products/drones/drones14/drones14--img--img1.jpg" alt="">
+					</div>
+					<div class="shopping__image--main" id="drones14--img--img2">
+						<img class="image" src="img/products/drones/drones14/drones14--img--img2.jpg" alt="">
+					</div>
+					<div class="shopping__image--main" id="drones14--img--img3">
+						<img class="image" src="img/products/drones/drones14/drones14--img--img3.jpg" alt="">
+					</div>
+					<div class="shopping__image--main" id="drones14--img--img4">
+						<img class="image" src="img/products/drones/drones14/drones14--img--img4.jpg" alt="">
+					</div>
+					<label for="drones14--inp--img1" class="image--small" id="drones14--lbl--img1"><img class="image--thumbnail"
+							src="img/products/drones/drones14/drones14--lbl--img1.jpg" alt=""></label>
+					<label for="drones14--inp--img2" class="image--small" id="drones14--lbl--img2"><img class="image--thumbnail"
+							src="img/products/drones/drones14/drones14--lbl--img2.jpg" alt=""></label>
+					<label for="drones14--inp--img3" class="image--small" id="drones14--lbl--img3"><img class="image--thumbnail"
+							src="img/products/drones/drones14/drones14--lbl--img3.jpg" alt=""></label>
+					<label for="drones14--inp--img4" class="image--small" id="drones14--lbl--img4"><img class="image--thumbnail"
+							src="img/products/drones/drones14/drones14--lbl--img4.jpg" alt=""></label>
+				</div>
+				<div class="shopping__info text--dark-color">
+					<div class="shopping__info__item">
+						<h1>GhostDrone 2.0 Aerial + iOS VR Goggles</h1>
+						<p class="text--medium text--medium-color">by
+							<a href="" class="link--primary">eHang</a></p>
+						<p class="text--small marginy--xsmall">
+							<i class="far fa-star"></i>
+							<i class="far fa-star"></i>
+							<i class="far fa-star"></i>
+							<i class="far fa-star"></i>
+							<i class="far fa-star"></i>
+							No reviews
+						</p>
+						<p class="text--xlarge">$899.00</p>
+					</div>
+
+					<div class="shopping__info__item">
+						<div class="shopping__info--quantity">
+							<div class="quantity__container">
+								<p class="text--medium text--medium-color">Quantity</p>
+								<select name="quantity" id="qty">
+									<option value="one">1</option>
+									<option value="two">2</option>
+									<option value="three">3</option>
+									<option value="four">4</option>
+									<option value="five">5</option>
+									<option value="six">6</option>
+									<option value="seven">7</option>
+									<option value="eight">8</option>
+									<option value="nine">9</option>
+									<option value="tenplus">10+</option>
+								</select>
+								<i class="fas fa-angle-down icon--dark"></i>
+							</div>
+							<a href="" class="btn--dark btn--medium">Add to cart</a>
+						</div>
+					</div>
+
+					<div class="shopping__info__item">
+						<p>The head-tracking eHang VR goggles let you see through the eyes of the GhostDrone 2.0 for a truly
+							immersive experience with video transmission built directly into the goggles. The eHang A.I. camera shoots
+							4K video and 12 mega pixel photos with a F/2.8 aperture 93 degree wide angle field-of-view lens. Fly for
+							up to 25 minutes on a single charge with up to a half mile range for video down link transmission. Our
+							self-tightening propellers are mounted on high-efficiency downward facing brushless motors to increase
+							stability and weather resistance for better flight performance.</p>
+						<p class="marginy--small">
+							This is a demo store. You can purchase products like this from <a class="link--primary" href="">Best
+								Flight Drones</a>.</p>
+					</div>
+
+					<div class="shopping__info__item">
+						<div class="social">
+							<p class="social__title">Share this:</p>
+							<div class="social__content">
+								<a class="social__link" href="">
+									<i class="fab fa-facebook-f social__icon"></i>
+								</a>
+								<a class="social__link" href="">
+									<i class="fab fa-twitter social__icon"></i>
+								</a>
+								<a class="social__link" href="">
+									<i class="fab fa-linkedin-in social__icon"></i>
+								</a>
+								<a class="social__link" href="">
+									<i class="fab fa-pinterest-p social__icon"></i>
+								</a>
+							</div>
+						</div>
+					</div>
+					<div class="shopping__info__item"></div>
+				</div>
+			</div>
+
+		</div>
+	</section>
+
+	<!-- Drones15 -->
+	<section class="shopping popup-window" id="drones15--shopping-wd">
+		<div class="popup-window__content">
+			<span class="close-window" id="drones15--close-icon">x</span>
+			<div class="shopping__content">
+				<div class="shopping__image">
+					<input type="radio" name="icons" id="drones15--inp--img1" checked>
+					<input type="radio" name="icons" id="drones15--inp--img2">
+					<input type="radio" name="icons" id="drones15--inp--img3">
+					<input type="radio" name="icons" id="drones15--inp--img4">
+					<input type="radio" name="icons" id="drones15--inp--img5">
+					<input type="radio" name="icons" id="drones15--inp--img6">
+					<div class="shopping__image--initial">
+						<img class="image" src="img/products/drones/drones15/drones15--img--img1.jpg" alt="">
+					</div>
+					<div class="shopping__image--main" id="drones15--img--img1">
+						<img class="image" src="img/products/drones/drones15/drones15--img--img1.jpg" alt="">
+					</div>
+					<div class="shopping__image--main" id="drones15--img--img2">
+						<img class="image" src="img/products/drones/drones15/drones15--img--img2.jpg" alt="">
+					</div>
+					<div class="shopping__image--main" id="drones15--img--img3">
+						<img class="image" src="img/products/drones/drones15/drones15--img--img3.jpg" alt="">
+					</div>
+					<div class="shopping__image--main" id="drones15--img--img4">
+						<img class="image" src="img/products/drones/drones15/drones15--img--img4.jpg" alt="">
+					</div>
+					<div class="shopping__image--main" id="drones15--img--img5">
+						<img class="image" src="img/products/drones/drones15/drones15--img--img5.jpg" alt="">
+					</div>
+					<div class="shopping__image--main" id="drones15--img--img6">
+						<img class="image" src="img/products/drones/drones15/drones15--img--img6.jpg" alt="">
+					</div>
+					<label for="drones15--inp--img1" class="image--small" id="drones15--lbl--img1"><img class="image--thumbnail"
+							src="img/products/drones/drones15/drones15--lbl--img1.jpg" alt=""></label>
+					<label for="drones15--inp--img2" class="image--small" id="drones15--lbl--img2"><img class="image--thumbnail"
+							src="img/products/drones/drones15/drones15--lbl--img2.jpg" alt=""></label>
+					<label for="drones15--inp--img3" class="image--small" id="drones15--lbl--img3"><img class="image--thumbnail"
+							src="img/products/drones/drones15/drones15--lbl--img3.jpg" alt=""></label>
+					<label for="drones15--inp--img4" class="image--small" id="drones15--lbl--img4"><img class="image--thumbnail"
+							src="img/products/drones/drones15/drones15--lbl--img4.jpg" alt=""></label>
+					<label for="drones15--inp--img5" class="image--small" id="drones15--lbl--img5"><img class="image--thumbnail"
+							src="img/products/drones/drones15/drones15--lbl--img5.jpg" alt=""></label>
+					<label for="drones15--inp--img6" class="image--small" id="drones15--lbl--img6"><img class="image--thumbnail"
+							src="img/products/drones/drones15/drones15--lbl--img6.jpg" alt=""></label>
+				</div>
+				<div class="shopping__info text--dark-color">
+					<div class="shopping__info__item">
+						<h1>Inspire 1 Pro T600</h1>
+						<p class="text--medium text--medium-color">by
+							<a href="" class="link--primary">DJI</a></p>
+						<p class="text--small marginy--xsmall">
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							2 reviews
+						</p>
+						<p class="text--xlarge">$3,399.00</p>
+					</div>
+
+					<div class="shopping__info__item">
+						<div class="shopping__info--quantity">
+							<div class="quantity__container">
+								<p class="text--medium text--medium-color">Quantity</p>
+								<select name="quantity" id="qty">
+									<option value="one">1</option>
+									<option value="two">2</option>
+									<option value="three">3</option>
+									<option value="four">4</option>
+									<option value="five">5</option>
+									<option value="six">6</option>
+									<option value="seven">7</option>
+									<option value="eight">8</option>
+									<option value="nine">9</option>
+									<option value="tenplus">10+</option>
+								</select>
+								<i class="fas fa-angle-down icon--dark"></i>
+							</div>
+							<a href="" class="btn--dark btn--medium">Add to cart</a>
+						</div>
+					</div>
+
+					<div class="shopping__info__item">
+						<p>DJI's most advanced technology comes together in the Inspire 1, an easy to use, all-in-one flying
+							platform that empowers you to create the unforgettable. Never before has such power been put into a
+							ready-to-fly system that anyone can fly.</p>
+						<p class="marginy--small">
+							This is a demo store. You can purchase products like this from <a class="link--primary" href="">Best
+								Flight Drones</a>.</p>
+					</div>
+
+					<div class="shopping__info__item">
+						<div class="social">
+							<p class="social__title">Share this:</p>
+							<div class="social__content">
+								<a class="social__link" href="">
+									<i class="fab fa-facebook-f social__icon"></i>
+								</a>
+								<a class="social__link" href="">
+									<i class="fab fa-twitter social__icon"></i>
+								</a>
+								<a class="social__link" href="">
+									<i class="fab fa-linkedin-in social__icon"></i>
+								</a>
+								<a class="social__link" href="">
+									<i class="fab fa-pinterest-p social__icon"></i>
+								</a>
+							</div>
+						</div>
+					</div>
+					<div class="shopping__info__item"></div>
+				</div>
+			</div>
+
+		</div>
+	</section>
+
+
+
+
+	<!-- Footer -->
+	<footer class="footer">
+		<div class="container">
+			<div class="footer__menu paddingy--large">
+				<div class="footer__item">
+					<input type="checkbox" name="footer-option1" id="footer__check1" class="check-button">
+					<label for="footer__check1" class="footer__dropdown">
+						<h3 class="footer__title text--dark-color">Navigate</h3>
+					</label>
+					<ul>
+						<li><a class="text--medium text--dark-color" href="">Search</a></li>
+						<li><a class="text--medium text--dark-color" href="">About</a></li>
+						<li><a class="text--medium text--dark-color" href="">Contact</a></li>
+						<li><a class="text--medium text--dark-color" href="">Blog</a></li>
+					</ul>
+				</div>
+				<div class="horizontal-line"></div>
+				<div class="footer__item">
+					<input type="checkbox" name="footer-option2" id="footer__check2" class="check-button">
+					<label for="footer__check2" class="footer__dropdown">
+						<h3 class="footer__title text--dark-color">Collections</h3>
+					</label>
+					<ul>
+						<li><a class="text--medium text--dark-color" href="drones.html">Drones</a></li>
+						<li><a class="text--medium text--dark-color" href="">Cameras</a></li>
+						<li><a class="text--medium text--dark-color" href="">Parts + Tools</a></li>
+						<li><a class="text--medium text--dark-color" href="">Accessories</a></li>
+					</ul>
+				</div>
+				<div class="horizontal-line"></div>
+				<div class="footer__item">
+					<input type="checkbox" name="footer-option3" id="footer__check3" class="check-button">
+					<label for="footer__check3" class="footer__dropdown">
+						<h3 class="footer__title text--dark-color">Support</h3>
+					</label>
+					<ul>
+						<li><a class="text--medium text--dark-color" href="">Theme Features</a></li>
+						<li><a class="text--medium text--dark-color" href="">Shipping</a></li>
+						<li><a class="text--medium text--dark-color" href="">Returns</a></li>
+						<li><a class="text--medium text--dark-color" href="">About</a></li>
+					</ul>
+				</div>
+				<div class="horizontal-line"></div>
+				<div class="footer__item">
+					<div class="social">
+						<p class="social__title">Follow us</p>
+						<div class="social__content">
+							<a class="social__link" href="">
+								<i class="fab fa-facebook-f social__icon"></i>
+							</a>
+							<a class="social__link" href="">
+								<i class="fab fa-twitter social__icon"></i>
+							</a>
+							</a>
+							<a class="social__link" href="">
+								<i class="fab fa-pinterest social__icon"></i>
+							</a>
+							<a class="social__link" href="">
+								<i class="fab fa-instagram social__icon"></i>
+							</a>
+							<a class="social__link" href="">
+								<i class="fas fa-envelope social__icon"></i>
+							</a>
+
+						</div>
+					</div>
+				</div>
+				<div class="horizontal-line"></div>
+			</div>
+			<div class="footer__copyright">
+				<div class="left">
+					<p class="text--small text--gray-color">Copyright © 2020 Empire Industrial.</p>
+					<a class="text--small text--gray-color" href="">Powered by Shopify</a>
+				</div>
+				<div class="right">
+					<select name="currency" id="currency">
+						<option value="USD">USD $</option>
+						<option value="GBP">GBP £</option>
+						<option value="EUR">EUR €</option>
+						<option value="CAD">CAD $</option>
+						<option value="AUD">AUD $</option>
+					</select>
+					<i class="fas fa-angle-down icon--dark"></i>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+	<!-- 
+		=================
+		Scripts 
+	===================-->
+	<!-- Product popup -->
+	<script src="js/main.js">	</script>
+	<!-- <script src="js/test.js">	</script> -->
+
+
+	<!-- Script for Icons -->
+	<script src="https://kit.fontawesome.com/3c5d2efabe.js" crossorigin="anonymous"></script>
+</body>
+
+</html>

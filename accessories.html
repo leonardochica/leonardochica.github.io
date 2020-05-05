@@ -1,0 +1,1588 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+	<link rel="stylesheet" href="css/main.css">
+	<title>The Drone Store | Accessories</title>
+</head>
+
+<body>
+	<header class="main-header">
+		<div class="main-header__content container">
+			<div class="main-header__top">
+				<div class="main-header__logo">
+					<a href="index.html">
+						<img src="img/logo.png" alt="logo" class="logo">
+					</a>
+				</div>
+
+				<!-- Search box -->
+				<div class="main-header__search">
+					<div class="main-header__categories">
+						<select name="categories" id="category">
+							<option value="All-categories">All categories</option>
+							<option value="none" disabled>------</option>
+							<option value="Adapter">Adapter</option>
+							<option value="Arm">Arm</option>
+							<option value="Backpack">Backpack</option>
+							<option value="Base">Base</option>
+							<option value="Cable">Cable</option>
+							<option value="Camera">Camera</option>
+							<option value="Controller">Controller</option>
+							<option value="Drone">Drone</option>
+							<option value="Gimbal">Gimbal</option>
+							<option value="Motor">Motor</option>
+							<option value="Propeller">Propeller</option>
+							<option value="Quadcopter">Quadcopter</option>
+							<option value="Remote-Controller">Remote Controller</option>
+						</select>
+						<i class="fas fa-angle-down icon--dark"></i>
+					</div>
+					<div class="main-header__search-box">
+						<input type="text" placeholder="What are you looking for?">
+					</div>
+					<div class="main-header__search-icon">
+						<a href="">
+							<i class="fas fa-search icon--light"></i>
+						</a>
+					</div>
+				</div>
+
+				<!-- Shopping cart icon -->
+				<div class="main-header__shopping">
+					<a href="">
+						<i class="fas fa-shopping-cart icon--light"></i>
+						<div class="main-header__shopping__cart text--small">2</div>
+					</a>
+				</div>
+			</div>
+
+			<!-- Hamburger Menu -->
+			<input type="checkbox" name="burger-check" id="burger-menu--check" class="check-button">
+			<div class="burger-menu">
+				<div class="burger-menu__line"></div>
+				<label for="burger-menu--check" class="burger-menu--toggler"></label>
+			</div>
+
+			<!-- Navigation -->
+			<nav class="navbar" id="navbar-popup">
+				<ul class="navbar__menu">
+					<span class="navbar__close-window" id="navbar--close-icon">x</span>
+
+
+					<!-- Drones -->
+					<li class="navbar__item"><a class="link--light" href="drones.html">Drones</a></li>
+
+					<!-- Cameras -->
+					<input type="checkbox" name="navbar__item1" id="navbar__item--check1" class="check-button">
+					<li class="navbar__item hover" id="navbar__dropdown--hover1">
+						<label for="navbar__item--check1" class="navbar__item--list">
+							<a class="navbar__item--link link--light" href="cameras.html">Cameras
+								<i class="fas fa-angle-down icon--light"></i>
+							</a>
+						</label>
+						<div>
+							<ul class="navbar__dropdown">
+								<input type="checkbox" name="navbar-subitem1" id="navbar__dropdown--check1" class="check-button">
+								<label for="navbar__dropdown--check1" class="navbar__dropdown--list">
+									<li class="navbar__subitem--first"><a class="link--dark" href="#">DJI</a>
+										<i class="fas fa-angle-down icon--dark"></i>
+									</li>
+								</label>
+								<li class="navbar__subitem"><a class="link--medium" href="#">Digital Camcorder</a></li>
+								<li class="navbar__subitem"><a class="link--medium" href="#">Osmo</a></li>
+								<li class="navbar__subitem"><a class="link--medium" href="#">Ronin-M Gimbal Stabilizer</a></li>
+								<li class="navbar__subitem"><a class="link--medium" href="#">Ronin-H3 Stabilizer</a></li>
+								<li class="navbar__subitem"><a class="link--medium" href="#">Zenmuse H3 Gimbal</a></li>
+							</ul>
+							<ul class="navbar__dropdown">
+								<input type="checkbox" name="navbar-subitem2" id="navbar__dropdown--check2" class="check-button">
+								<label for="navbar__dropdown--check2" class="navbar__dropdown--list">
+									<li class="navbar__subitem--first"><a class="link--dark" href="#">Other</a>
+										<i class="fas fa-angle-down icon--dark"></i>
+									</li>
+								</label>
+								<li class="navbar__subitem"><a class="link--medium" href="#">Yuneec CGO2+ Camera</a></li>
+								<li class="navbar__subitem"><a class="link--medium" href="#">Autel X-Star 4K Camera</a></li>
+							</ul>
+							<ul class="navbar__dropdown">
+								<li class="navbar__subitem--image">
+									<img class="navbar__dropdown--image" src="img/dropdown/camera.jpg" alt="">
+									<p class="text--center">CGO2+ Camera</p>
+								</li>
+							</ul>
+							<ul class="navbar__dropdown"></ul>
+						</div>
+					</li>
+
+
+					<!-- Parts & Tools -->
+					<input type="checkbox" name="navbar__item2" id="navbar__item--check2" class="check-button">
+					<li class="navbar__item hover" id="navbar__dropdown--hover2">
+						<label for="navbar__item--check2" class="navbar__item--list">
+							<a class="navbar__item--link link--light" href="parts_tools.html">Parts & Tools
+								<i class="fas fa-angle-down icon--light"></i>
+							</a>
+						</label>
+						<div>
+							<ul class="navbar__dropdown">
+								<input type="checkbox" name="navbar-subitem3" id="navbar__dropdown--check3" class="check-button">
+								<label for="navbar__dropdown--check3" class="navbar__dropdown--list">
+									<li class="navbar__subitem--first"><a class="link--dark" href="#">Autel</a>
+										<i class="fas fa-angle-down icon--dark"></i>
+									</li>
+								</label>
+								<li class="navbar__subitem"><a class="link--medium" href="#">X-Star Landing Gear</a></li>
+								<li class="navbar__subitem"><a class="link--medium" href="#">X-Star Premium Controller</a></li>
+								<li class="navbar__subitem"><a class="link--medium" href="#">X-Star Premium Craft Only</a></li>
+								<li class="navbar__subitem"><a class="link--medium" href="#">X-Star Propellers</a></li>
+							</ul>
+							<ul class="navbar__dropdown">
+								<input type="checkbox" name="navbar-subitem4" id="navbar__dropdown--check4" class="check-button">
+								<label for="navbar__dropdown--check4" class="navbar__dropdown--list">
+									<li class="navbar__subitem--first"><a class="link--dark" href="#">DJI</a>
+										<i class="fas fa-angle-down icon--dark"></i>
+									</li>
+								</label>
+								<li class="navbar__subitem"><a class="link--medium" href="#">HDMI Output Module</a></li>
+								<li class="navbar__subitem"><a class="link--medium" href="#">Inspire 11356T Propellers</a></li>
+								<li class="navbar__subitem"><a class="link--medium" href="#">Inspire 11360T Propellers</a></li>
+								<li class="navbar__subitem"><a class="link--medium" href="#">Inspire 1 Remote Controller</a></li>
+								<li class="navbar__subitem"><a class="link--medium" href="#">Mavic Battery Charging Hub</a></li>
+							</ul>
+							<ul class="navbar__dropdown">
+								<input type="checkbox" name="navbar-subitem5" id="navbar__dropdown--check5" class="check-button">
+								<label for="navbar__dropdown--check5" class="navbar__dropdown--list">
+									<li class="navbar__subitem--first"><a class="link--dark" href="#">Yuneec</a>
+										<i class="fas fa-angle-down icon--dark"></i>
+									</li>
+								</label>
+								<li class="navbar__subitem"><a class="link--medium" href="#">Extra Drone Screws</a></li>
+								<li class="navbar__subitem"><a class="link--medium" href="#">Typoon Q500 Brushless ESC (Front)</a></li>
+								<li class="navbar__subitem"><a class="link--medium" href="#">Typoon Q500 Brushless Motor</a></li>
+								<li class="navbar__subitem"><a class="link--medium" href="#">Typoon Q500 Brushless Landing Gear</a></li>
+							</ul>
+							<ul class="navbar__dropdown">
+								<li class="navbar__subitem--image">
+									<img class="navbar__dropdown--image" src="img/dropdown/parts_and_tools.jpg" alt="">
+									<p class="text--center">HDMI Output Module</p>
+								</li>
+							</ul>
+							<ul class="navbar__dropdown"></ul>
+						</div>
+					</li>
+
+					<!-- Accessories -->
+					<input type="checkbox" name="navbar__item3" id="navbar__item--check3" class="check-button">
+					<li class="navbar__item hover" id="navbar__dropdown--hover3">
+						<label for="navbar__item--check3" class="navbar__item--list">
+							<a class="navbar__item--link link--light" href="accessories.html">Accessories
+								<i class="fas fa-angle-down icon--light"></i>
+							</a>
+						</label>
+						<div>
+							<ul class="navbar__dropdown">
+								<input type="checkbox" name="navbar-subitem6" id="navbar__dropdown--check6" class="check-button">
+								<label for="navbar__dropdown--check6" class="navbar__dropdown--list">
+									<li class="navbar__subitem--first"><a class="link--dark" href="#">DJI</a>
+										<i class="fas fa-angle-down icon--dark"></i>
+									</li>
+								</label>
+								<li class="navbar__subitem"><a class="link--medium" href="#">15mm F1.7 Lens</a></li>
+								<li class="navbar__subitem"><a class="link--medium" href="#">A3 Flight Controller</a></li>
+								<li class="navbar__subitem"><a class="link--medium" href="#">Bebop 2 Battery</a></li>
+							</ul>
+							<ul class="navbar__dropdown">
+								<input type="checkbox" name="navbar-subitem7" id="navbar__dropdown--check7" class="check-button">
+								<label for="navbar__dropdown--check7" class="navbar__dropdown--list">
+									<li class="navbar__subitem--first"><a class="link--dark" href="#">Autel</a>
+										<i class="fas fa-angle-down icon--dark"></i>
+									</li>
+								</label>
+								<li class="navbar__subitem"><a class="link--medium" href="#">X-Star Battery</a></li>
+								<li class="navbar__subitem"><a class="link--medium" href="#">X-Star Battery Charger</a></li>
+								<li class="navbar__subitem"><a class="link--medium" href="#">X-Star Premium Controller</a></li>
+							</ul>
+							<ul class="navbar__dropdown">
+								<input type="checkbox" name="navbar-subitem8" id="navbar__dropdown--check8" class="check-button">
+								<label for="navbar__dropdown--check8" class="navbar__dropdown--list">
+									<li class="navbar__subitem--first"><a class="link--dark" href="#">yuneec</a>
+										<i class="fas fa-angle-down icon--dark"></i>
+									</li>
+								</label>
+								<li class="navbar__subitem"><a class="link--medium" href="#">CGO2+ Camera/Camcorder Stabilizer</a></li>
+								<li class="navbar__subitem"><a class="link--medium" href="#">E-GO2 Electronic Controller</a></li>
+								<li class="navbar__subitem"><a class="link--medium" href="#">E-GO2 Wheel Set</a></li>
+								<li class="navbar__subitem"><a class="link--medium" href="#">Typhoon H Battery</a></li>
+							</ul>
+							<ul class="navbar__dropdown">
+								<li class="navbar__subitem--image">
+									<img class="navbar__dropdown--image" src="img/dropdown/Accessories.jpg" alt="">
+									<p class="text--center">15mm F1.7 Lens</p>
+								</li>
+							</ul>
+							<ul class="navbar__dropdown"></ul>
+						</div>
+					</li>
+
+					<!-- Sale -->
+					<li class="navbar__item"><a class="link--light" href="sale.html">Sale</a></li>
+					<!-- Blog -->
+					<li class="navbar__item"><a class="link--light" href="blog.html">Blog</a></li>
+					<!-- About -->
+					<li class="navbar__item"><a class="link--light" href="about.html">About</a></li>
+
+				</ul>
+			</nav>
+		</div>
+	</header>
+
+	<!-- Accessories Page -->
+
+	<section class="collection" id="accessories">
+		<div class="collection__content container">
+			<div class="collection__products">
+				<p class="collection__navigation text--medium-color">
+					<a href="index.html" class="link--primary">Home</a> &gt; Accessories
+				</p>
+				<h1 class="collection__title text--dark-color text--xxlarge">Accessories</h1>
+
+				<!-- Input radio for selecting layout -->
+				<input type="radio" name="layout" id="grid" class="radio-button">
+				<input type="radio" name="layout" id="column" class="radio-button" checked>
+				<!-- Menu: sort, view as grid or column -->
+				<div class="collection__menu text--dark-color padding--small">
+					<div class="collection__menu__container">
+						<div class="menu__item filters--link">
+							<i class="fas fa-sliders-h icon--primary"></i>
+							<a class="link--primary">Filters</a>
+						</div>
+						<div class="menu__item">
+							<a class="sort__link">Sort by</a>
+							<div class="collection__sort">
+								<div class="collection__sort__container">
+									<span class="close-window" id="sort__close-icon">x</span>
+									<h3 class="sort__title">Sort by</h3>
+									<div class="collection__sort__dropdown" tabindex="1">
+										<input type="radio" name="sort-options" id="sort-input--option1" class="radio-button" checked>
+										<p class="sort-input--text">Featured</p>
+
+										<input type="radio" name="sort-options" id="sort-input--option2" class="radio-button">
+										<p class="sort-input--text">Best Selling</p>
+
+										<input type="radio" name="sort-options" id="sort-input--option3" class="radio-button">
+										<p class="sort-input--text">Alphabetically, A-Z</p>
+
+										<input type="radio" name="sort-options" id="sort-input--option4" class="radio-button">
+										<p class="sort-input--text">Alphabetically, Z-A</p>
+
+										<input type="radio" name="sort-options" id="sort-input--option5" class="radio-button">
+										<p class="sort-input--text">Price, low to high</p>
+
+										<input type="radio" name="sort-options" id="sort-input--option6" class="radio-button">
+										<p class="sort-input--text">Price, high to low</p>
+
+										<input type="radio" name="sort-options" id="sort-input--option7" class="radio-button">
+										<p class="sort-input--text">Date, old to new</p>
+
+										<input type="radio" name="sort-options" id="sort-input--option8" class="radio-button">
+										<p class="sort-input--text">Date, new to old</p>
+
+										<i class="sort__icon fas fa-caret-down icon--dark"></i>
+									</div>
+									<ul class="sort__list">
+										<li>
+											<label for="sort-input--option1" class="sort__option">Featured</label>
+										</li>
+										<li>
+											<label for="sort-input--option2" class="sort__option">Best Selling</label>
+										</li>
+										<li>
+											<label for="sort-input--option3" class="sort__option">Alphabetically, A-Z</label>
+										</li>
+										<li>
+											<label for="sort-input--option4" class="sort__option">Alphabetically, Z-A</label>
+										</li>
+										<li>
+											<label for="sort-input--option5" class="sort__option">Price, low to high</label>
+										</li>
+										<li>
+											<label for="sort-input--option6" class="sort__option">Price, high to low</label>
+										</li>
+										<li>
+											<label for="sort-input--option7" class="sort__option">Date, old to new</label>
+										</li>
+										<li>
+											<label for="sort-input--option8" class="sort__option">Date, new to old</label>
+										</li>
+									</ul>
+
+								</div>
+							</div>
+						</div>
+						<div class="menu__item">
+							<p class="menu__title">Show</p>
+							<a href="" class="link--medium current">24</a>
+							<a href="" class="link--medium">36</a>
+							<a href="" class="link--medium">48</a>
+						</div>
+						<div class="menu__item">
+							<p class=" menu__title">View as</p>
+							<div class="subitem">
+								<label for="grid" class="grid__icon--bg"><i class="grid__icon fas fa-th"></i></label>
+								<label for="column" class="column__icon--bg"><i class="column__icon fas fa-align-justify"></i></label>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- Product Grid | Layout -->
+				<div class="products">
+					<div class="products__grid products__grid__col-pages">
+						<!-- accessories1 -->
+						<div class="products__grid__card border--medium-color padding--small">
+							<a href="" class="card__image">
+								<img class="image" src="img/products/accessories/accessories1/accessories1--img--img1.jpg" alt="">
+							</a>
+							<div class="card__buttons__container">
+								<p class="text--primary-color text--xlarge card__price">$5,399.00</p>
+								<div class="card__buttons">
+									<a class="card__button btn--light text--small" id="accessories1--btn--quick">Quick shop</a>
+									<a class="card__button btn--dark text--small btn--popup">Add to cart</a>
+								</div>
+							</div>
+							<div class="card__info">
+								<a class="card__title link--dark heading--small" href="">
+									<h5>15mm F1.7 Lens</h5>
+								</a>
+								<a class="card__brand link--medium text--small" href="">
+									<p>DJI</p>
+								</a>
+								<p class="text--small marginy--xsmall">
+									<i class="far fa-star"></i>
+									<i class="far fa-star"></i>
+									<i class="far fa-star"></i>
+									<i class="far fa-star"></i>
+									<i class="far fa-star"></i>
+									No reviews
+								</p>
+								<p class="card__text">DJI MFT 15mm F1.7 ASPH Prime Lens for the Micro Four Thirds Zenmuse X5 Series
+									camera and gimbal systems allows you to capture incredible aerial im...</p>
+								<a href="" class="card__link link--primary">View full details</a>
+							</div>
+						</div>
+
+						<!-- accessories2 -->
+						<div class="products__grid__card border--medium-color padding--small">
+							<a href="" class="card__image">
+								<img class="image" src="img/products/accessories/accessories2/accessories2--img--img1.jpg" alt="">
+							</a>
+							<div class="card__buttons__container">
+								<div class="tag">
+									<p class="tag--sale style-tag--sale">Sale</p>
+									<p class="tag--cross text--medium-color text--medium text--line-thru">$350.00</p>
+									<p class="tag--price text--tag-sale-color text--xlarge">$315.99</p>
+								</div>
+								<div class="card__buttons">
+									<a class="card__button btn--light text--small" id="accessories2--btn--quick">Quick shop</a>
+									<a class="card__button btn--dark text--small btn--popup">Add to cart</a>
+								</div>
+							</div>
+							<div class="card__info">
+								<a class="card__title link--dark heading--small" href="">
+									<h5>B&W International Quadcopter Carrying Case</h5>
+								</a>
+								<a class="card__brand link--medium text--small" href="">
+									<p>DJI</p>
+								</a>
+								<p class="text--small marginy--xsmall">
+									<i class="far fa-star"></i>
+									<i class="far fa-star"></i>
+									<i class="far fa-star"></i>
+									<i class="far fa-star"></i>
+									<i class="far fa-star"></i>
+									No reviews
+								</p>
+								<p class="card__text">The case for your DJI Phantom Copter. The prefabricated foam insert fits the DJI
+									Phantom 2, DJI Phantom 2 Vision and the DJI Phantom 2 Vision+ (pr...</p>
+								<a href="" class="card__link link--primary">View full details</a>
+							</div>
+						</div>
+
+						<!-- accessories3 -->
+						<div class="products__grid__card border--medium-color padding--small">
+							<a href="" class="card__image">
+								<img class="image" src="img/products/accessories/accessories3/accessories3--img--img1.jpg" alt="">
+							</a>
+							<div class="card__buttons__container">
+								<p class="text--primary-color text--xlarge card__price">$149.00</p>
+								<div class="card__buttons">
+									<a class="card__button btn--light text--small" id="accessories3--btn--quick">Quick shop</a>
+									<a class="card__button btn--dark text--small btn--popup">Add to cart</a>
+								</div>
+							</div>
+							<div class="card__info">
+								<a class="card__title link--dark heading--small" href="">
+									<h5>CGO2+ Camera/Camcorder Stabilizer</h5>
+								</a>
+								<a class="card__brand link--medium text--small" href="">
+									<p>Yuneec</p>
+								</a>
+								<p class="text--small marginy--xsmall">
+									<i class="far fa-star"></i>
+									<i class="far fa-star"></i>
+									<i class="far fa-star"></i>
+									<i class="far fa-star"></i>
+									<i class="far fa-star"></i>
+									No reviews
+								</p>
+								<p class="card__text">The CGO SteadyGripTM is a ground handle designed to extend the CGO-GB 3-axis gyro
+									stabilized camera from the sky to the ground, allowing you to ca...</p>
+								<a href="" class="card__link link--primary">View full details</a>
+							</div>
+						</div>
+
+
+						<!-- accessories4 -->
+						<div class="products__grid__card border--medium-color padding--small">
+							<!-- Card with mutiple color selection -->
+							<a href="" class="card__image image__multiple">
+
+								<!-- Radio buttons for colors -->
+								<input type="radio" name="accessories4--collection--color" id="accessories4--collection--color1"
+									class="radio-button">
+								<label for="accessories4--collection--color1"
+									class="LBL--color1 style--color-box color--loc1--collection white-style"></label>
+
+								<input type="radio" name="accessories4--collection--color" id="accessories4--collection--color2"
+									class="radio-button">
+								<label for="accessories4--collection--color2"
+									class="LBL--color2 style--color-box color--loc2--collection black-style"></label>
+
+								<!-- Images -->
+								<img class="image image--1" id="img-color1"
+									src="img/products/accessories/accessories4/accessories4--img--img1.jpg" alt="">
+								<img class="image image--2" id="img-color2"
+									src="img/products/accessories/accessories4/accessories4--img--img2.jpg" alt="">
+							</a>
+							<div class="card__buttons__container">
+								<div class="tag">
+									<p class="tag--sale style-tag--sale">Sale</p>
+									<p class="tag--cross text--medium-color text--medium text--line-thru">$400.00</p>
+									<p class="tag--price text--tag-sale-color text--xlarge">$349.99</p>
+								</div>
+								<div class="card__buttons">
+									<a class="card__button btn--light text--small" id="accessories4--btn--quick">Quick shop</a>
+									<a class="card__button btn--dark text--small btn--popup">Add to cart</a>
+								</div>
+							</div>
+							<div class="card__info">
+								<a class="card__title link--dark heading--small" href="">
+									<h5>GhostDrone 2.0 iOS VR Goggles</h5>
+								</a>
+								<a class="card__brand link--medium text--small" href="">
+									<p>eHang</p>
+								</a>
+								<p class="text--small marginy--xsmall">
+									<i class="far fa-star"></i>
+									<i class="far fa-star"></i>
+									<i class="far fa-star"></i>
+									<i class="far fa-star"></i>
+									<i class="far fa-star"></i>
+									No reviews
+								</p>
+								<p class="card__text">eHang VR goggles let you see through the eyes of GhostDrone for a truly immersive
+									experience. Bluetooth/Wi-Fi + 2.4 GHz data transmission and +5.8...</p>
+								<a href="" class="card__link link--primary">View full details</a>
+							</div>
+						</div>
+
+
+						<!-- accessories5 -->
+						<div class="products__grid__card border--medium-color padding--small">
+							<!-- Card with mutiple color selection -->
+							<a href="" class="card__image image__multiple">
+
+								<!-- Radio buttons for colors -->
+								<input type="radio" name="accessories5--collection--color" id="accessories5--collection--color1"
+									class="radio-button">
+								<label for="accessories5--collection--color1"
+									class="LBL--color1 style--color-box color--loc1--collection black-style"></label>
+
+								<input type="radio" name="accessories5--collection--color" id="accessories5--collection--color2"
+									class="radio-button">
+								<label for="accessories5--collection--color2"
+									class="LBL--color2 style--color-box color--loc2--collection orange-style"></label>
+
+								<input type="radio" name="accessories5--collection--color" id="accessories5--collection--color3"
+									class="radio-button">
+								<label for="accessories5--collection--color3"
+									class="LBL--color3 style--color-box color--loc3--collection cian-style"></label>
+
+								<input type="radio" name="accessories5--collection--color" id="accessories5--collection--color4"
+									class="radio-button">
+								<label for="accessories5--collection--color4"
+									class="LBL--color4 style--color-box color--loc4--collection white-style"></label>
+
+								<!-- Images -->
+								<img class="image image--1" id="img-color1"
+									src="img/products/accessories/accessories5/accessories5--img--img1.jpg" alt="">
+								<img class="image image--2" id="img-color2"
+									src="img/products/accessories/accessories5/accessories5--img--img2.jpg" alt="">
+								<img class="image image--3" id="img-color3"
+									src="img/products/accessories/accessories5/accessories5--img--img3.jpg" alt="">
+								<img class="image image--4" id="img-color4"
+									src="img/products/accessories/accessories5/accessories5--img--img4.jpg" alt="">
+							</a>
+							<div class="card__buttons__container">
+								<p class="text--primary-color text--xlarge card__price">$19.00</p>
+								<div class="card__buttons">
+									<a class="card__button btn--light text--small" id="accessories5--btn--quick">Quick shop</a>
+									<a class="card__button btn--dark text--small btn--popup">Add to cart</a>
+								</div>
+							</div>
+							<div class="card__info">
+								<a class="card__title link--dark heading--small" href="">
+									<h5>GhostDrone 2.0 Propellers</h5>
+								</a>
+								<a class="card__brand link--medium text--small" href="">
+									<p>eHang</p>
+								</a>
+								<p class="text--small marginy--xsmall">
+									<i class="far fa-star"></i>
+									<i class="far fa-star"></i>
+									<i class="far fa-star"></i>
+									<i class="far fa-star"></i>
+									<i class="far fa-star"></i>
+									No reviews
+								</p>
+								<p class="card__text">GhostDrones use high efficiency two-bladed reversible self-tightening propellers.
+									This set includes two pairs of propellers. Two blades are for th...</p>
+								<a href="" class="card__link link--primary">View full details</a>
+							</div>
+						</div>
+
+						<!-- accessories6 -->
+						<div class="products__grid__card border--medium-color padding--small">
+							<!-- Card with mutiple color selection -->
+							<a href="" class="card__image image__multiple">
+
+								<!-- Radio buttons for colors -->
+								<input type="radio" name="accessories6--collection--color" id="accessories6--collection--color1"
+									class="radio-button">
+								<label for="accessories6--collection--color1"
+									class="LBL--color1 style--color-box color--loc1--collection white-style"></label>
+
+								<input type="radio" name="accessories6--collection--color" id="accessories6--collection--color2"
+									class="radio-button">
+								<label for="accessories6--collection--color2"
+									class="LBL--color2 style--color-box color--loc2--collection black-style"></label>
+
+								<!-- Images -->
+								<img class="image image--1" id="img-color1"
+									src="img/products/accessories/accessories6/accessories6--img--img1.jpg" alt="">
+								<img class="image image--2" id="img-color2"
+									src="img/products/accessories/accessories6/accessories6--img--img2.jpg" alt="">
+							</a>
+							<div class="card__buttons__container">
+								<p class="text--primary-color text--xlarge card__price">$199.00</p>
+								<div class="card__buttons">
+									<a class="card__button btn--light text--small" id="accessories6--btn--quick">Quick shop</a>
+									<a class="card__button btn--dark text--small btn--popup">Add to cart</a>
+								</div>
+							</div>
+							<div class="card__info">
+								<a class="card__title link--dark heading--small" href="">
+									<h5>Inspire 1 TB48 Intelligent Flight Battery 5700 mAh</h5>
+								</a>
+								<a class="card__brand link--medium text--small" href="">
+									<p>DJI</p>
+								</a>
+								<p class="text--small marginy--xsmall">
+									<i class="far fa-star"></i>
+									<i class="far fa-star"></i>
+									<i class="far fa-star"></i>
+									<i class="far fa-star"></i>
+									<i class="far fa-star"></i>
+									No reviews
+								</p>
+								<p class="card__text">Get more flight time from your Inspire 1 by bringing along extra Intelligent
+									Flight Batteries. With built-in charging and capacity sensors for saf....</p>
+								<a href="" class="card__link link--primary">View full details</a>
+							</div>
+						</div>
+
+					</div>
+				</div>
+
+				<!-- Page navigation -->
+				<div class="page-nav">
+					<a href="" class="link--primary text--large current">1</a>
+					<a href="" class="link--primary text--large">2</a>
+					<a href="" class=" link--primary text--large">Next &gt;</a>
+				</div>
+
+			</div>
+
+			<!-- Product Filters
+			-------------------------->
+			<div class="collection__filters">
+				<div class="filter__container">
+					<span class="close-window" id="filters--close-icon">x</span>
+					<h1 class="filter__title text--dark-color text--xlarge">Filters</h1>
+					<!-- Brand -->
+					<div class="filter__component">
+						<h2 class="menu__title">Brand</h2>
+						<div class="horizontal-line"></div>
+						<ul>
+							<li class="filter__option" title="Narrow selection to products matching tag Brand_Autel">
+								<input type="checkbox" name="" id="autel" class="filter__check autel">
+								<label for="autel" class="filter__label text--dark-color">Autel</label>
+							</li>
+							<div class="horizontal-line"></div>
+							<li class="filter__option text--dark-color" title="Narrow selection to products matching tag Brand_DJI">
+								<input type="checkbox" name="" id="DJI" class="filter__check DJI">
+								<label for="DJI" class="filter__label text--dark-color">DJI</label>
+							</li>
+							<div class="horizontal-line"></div>
+							<li class="filter__option text--dark-color" title="Narrow selection to products matching tag Brand_eHang">
+								<input type="checkbox" name="" id="eHANG" class="filter__check ehang">
+								<label for="eHANG" class="filter__label text--dark-color">eHANG</label>
+							</li>
+							<div class="horizontal-line"></div>
+							<li class="filter__option text--dark-color"
+								title="Narrow selection to products matching tag Brand_FreeFly">
+								<input type="checkbox" name="" id="freefly" class="filter__check freefly"> <label for="freefly"
+									class="filter__label text--dark-color">FreeFly</label>
+							</li>
+							<div class="horizontal-line"></div>
+							<li class="filter__option text--dark-color"
+								title="Narrow selection to products matching tag Brand_Parrot">
+								<input type="checkbox" name="" id="parrot" class="filter__check parrot"> <label for="parrot"
+									class="filter__label text--dark-color">Parrot</label>
+							</li>
+							<div class="horizontal-line"></div>
+							<li class="filter__option text--dark-color"
+								title="Narrow selection to products matching tag Brand_Yuneec">
+								<input type="checkbox" name="" id="yunnec" class="filter__check yunnec"> <label for="yunnec"
+									class="filter__label text--dark-color">Yunnec</label>
+							</li>
+							<div class="horizontal-line"></div>
+						</ul>
+					</div>
+
+					<!-- Color -->
+					<div class="filter__component">
+						<h2 class="menu__title">Color</h2>
+						<ul class="filter__set">
+							<li class="filter__option">
+								<input type="radio" name="color" id="black" class="radio-button">
+								<label for="black" class="filter__check--color black-style"></label>
+							</li>
+							<li class="filter__option">
+								<input type="radio" name="color" id="blue" class="radio-button">
+								<label for="blue" class="filter__check--color blue-style"></label>
+							</li>
+							<li class="filter__option">
+								<input type="radio" name="color" id="cian" class="radio-button">
+								<label for="cian" class="filter__check--color cian-style"></label>
+							</li>
+							<li class="filter__option">
+								<input type="radio" name="color" id="orange" class="radio-button">
+								<label for="orange" class="filter__check--color orange-style"></label>
+							</li>
+							<li class="filter__option">
+								<input type="radio" name="color" id="red" class="radio-button">
+								<label for="red" class="filter__check--color red-style"></label>
+							</li>
+							<li class="filter__option">
+								<input type="radio" name="color" id="white" class="radio-button">
+								<label for="white" class="filter__check--color white-style"></label>
+							</li>
+							<li class="filter__option">
+								<input type="radio" name="color" id="yellow" class="radio-button">
+								<label for="yellow" class="filter__check--color yellow-style"></label>
+							</li>
+						</ul>
+					</div>
+
+					<!-- Series -->
+					<div class="filter__component">
+						<h2 class="menu__title">Series</h2>
+						<div class="horizontal-line"></div>
+						<ul>
+							<li class="filter__option">
+								<input type="checkbox" name="" id="ardrone2" class="filter__check ardrone2">
+								<label for="ardrone2" class="filter__label text--dark-color">A.R. Drone 2.0</label>
+							</li>
+							<div class="horizontal-line"></div>
+							<li class="filter__option text--dark-color">
+								<input type="checkbox" name="" id="bebop" class="filter__check bebop">
+								<label for="bebop" class="filter__label text--dark-color">Bebop</label>
+							</li>
+							<div class="horizontal-line"></div>
+							<li class="filter__option text--dark-color">
+								<input type="checkbox" name="" id="bebop2" class="filter__check bebop2">
+								<label for="bebop2" class="filter__label text--dark-color">Bebop 2</label>
+							</li>
+							<div class="horizontal-line"></div>
+							<li class="filter__option text--dark-color">
+								<input type="checkbox" name="" id="freefly-alta" class="filter__check freefly-alta"> <label
+									for="freefly-alta" class="filter__label text--dark-color">FreeFly Alta</label>
+							</li>
+							<div class="horizontal-line"></div>
+							<li class="filter__option text--dark-color">
+								<input type="checkbox" name="" id="ghostdrone2" class="filter__check ghostdrone2"> <label
+									for="ghostdrone2" class="filter__label text--dark-color">GhostDrone 2.0</label>
+							</li>
+							<div class="horizontal-line"></div>
+							<li class="filter__option text--dark-color">
+								<input type="checkbox" name="" id="inspire1" class="filter__check inspire1"> <label for="inspire1"
+									class="filter__label text--dark-color">Inspire 1</label>
+							</li>
+							<div class="horizontal-line"></div>
+							<li class="filter__option text--dark-color">
+								<input type="checkbox" name="" id="inspire2" class="filter__check inspire2"> <label for="inspire2"
+									class="filter__label text--dark-color">Inspire 2</label>
+							</li>
+							<div class="horizontal-line"></div>
+							<li class="filter__option text--dark-color">
+								<input type="checkbox" name="" id="mavic" class="filter__check mavic"> <label for="mavic"
+									class="filter__label text--dark-color">Mavic</label>
+							</li>
+							<div class="horizontal-line"></div>
+							<li class="filter__option text--dark-color">
+								<input type="checkbox" name="" id="phantom" class="filter__check phantom"> <label for="phantom"
+									class="filter__label text--dark-color">Phantom</label>
+							</li>
+							<div class="horizontal-line"></div>
+							<li class="filter__option text--dark-color">
+								<input type="checkbox" name="" id="typhoonq500" class="filter__check typhoonq500"> <label
+									for="typhoonq500" class="filter__label text--dark-color">Typhoon Q500</label>
+							</li>
+							<div class="horizontal-line"></div>
+							<li class="filter__option text--dark-color">
+								<input type="checkbox" name="" id="x-star" class="filter__check x-star"> <label for="x-star"
+									class="filter__label text--dark-color">X-Star</label>
+							</li>
+							<div class="horizontal-line"></div>
+							<li class="filter__option text--dark-color">
+								<input type="checkbox" name="" id="x-star-premium" class="filter__check x-star-premium"> <label
+									for="x-star-premium" class="filter__label text--dark-color">X-Star Premium</label>
+							</li>
+							<div class="horizontal-line"></div>
+						</ul>
+					</div>
+
+					<!-- Collections -->
+					<div class="filter__component">
+						<h2 class="text--xlarge">Collections</h2>
+						<ul>
+							<li class="filter__option">
+								<a href="" class="link--dark">Drones (28)</a>
+							</li>
+							<li class="filter__option">
+								<a href="" class="link--dark">Cameras (12)</a>
+							</li>
+							<li class="filter__option">
+								<a href="" class="link--dark">Parts + Tools (24)</a>
+							</li>
+							<li class="filter__option">
+								<a href="" class="link--dark">Accessories (92)</a>
+							</li>
+
+						</ul>
+					</div>
+
+				</div>
+			</div>
+	</section>
+
+
+
+	<!-- ========================================= -->
+	<!-- Popup Window Shopping-->
+	<!-- ====================================== -->
+
+	<!-- Accessories1 -->
+	<section class="shopping popup-window" id="accessories1--shopping-wd">
+		<div class="popup-window__content">
+			<span class="close-window" id="accessories1--close-icon">x</span>
+			<div class="shopping__content">
+				<div class="shopping__image">
+					<input type="radio" name="icons" id="accessories1--inp--img1" checked>
+					<input type="radio" name="icons" id="accessories1--inp--img2">
+					<div class="shopping__image--initial">
+						<img class="image" src="img/products/accessories/accessories1/accessories1--img--img1.jpg" alt="">
+					</div>
+					<div class="shopping__image--main" id="accessories1--img--img1">
+						<img class="image" src="img/products/accessories/accessories1/accessories1--img--img1.jpg" alt="">
+					</div>
+					<div class="shopping__image--main" id="accessories1--img--img2">
+						<img class="image" src="img/products/accessories/accessories1/accessories1--img--img2.jpg" alt="">
+					</div>
+					<label for="accessories1--inp--img1" class="image--small" id="accessories1--lbl--img1"><img
+							class="image--thumbnail" src="img/products/accessories/accessories1/accessories1--lbl--img1.jpg"
+							alt=""></label>
+					<label for="accessories1--inp--img2" class="image--small" id="accessories1--lbl--img2"><img
+							class="image--thumbnail" src="img/products/accessories/accessories1/accessories1--lbl--img2.jpg"
+							alt=""></label>
+
+				</div>
+				<div class="shopping__info text--dark-color">
+					<div class="shopping__info__item">
+						<h1>15mm F1.7 Lens</h1>
+						<p class="text--medium text--medium-color">by
+							<a href="" class="link--primary">DJI</a></p>
+						<p class="text--small marginy--xsmall">
+							<i class="far fa-star"></i>
+							<i class="far fa-star"></i>
+							<i class="far fa-star"></i>
+							<i class="far fa-star"></i>
+							<i class="far fa-star"></i>
+							No reviews
+						</p>
+						<p class="text--xlarge">$5,399.00</p>
+					</div>
+
+					<div class="shopping__info__item">
+						<div class="shopping__info--quantity">
+							<div class="quantity__container">
+								<p class="text--medium text--medium-color">Quantity</p>
+								<select name="quantity" id="qty">
+									<option value="one">1</option>
+									<option value="two">2</option>
+									<option value="three">3</option>
+									<option value="four">4</option>
+									<option value="five">5</option>
+									<option value="six">6</option>
+									<option value="seven">7</option>
+									<option value="eight">8</option>
+									<option value="nine">9</option>
+									<option value="tenplus">10+</option>
+								</select>
+								<i class="fas fa-angle-down icon--dark"></i>
+							</div>
+							<a href="" class="btn--dark btn--medium">Add to cart</a>
+						</div>
+					</div>
+
+					<div class="shopping__info__item">
+						<p>DJI MFT 15mm F1.7 ASPH Prime Lens for the Micro Four Thirds Zenmuse X5 Series camera and gimbal systems
+							allows you to capture incredible aerial images and video. This lens is comprised of 9 elements in 7 groups
+							uses 3 aspherical lenses, for maximum sharpness, while maintaining a compact size. The large F1.7 aperture
+							gives great low-light performance and allows control over the camera's Depth of Field for object
+							separation and bokeh effects. When used together with the Zenmuse X5 Series, you can adjust both focus and
+							aperture remotely via the DJI GO app, or by using the DJI Focus wireless lens control system.</p>
+						<p class="marginy--small">
+							This is a demo store. You can purchase products like this from <a class="link--primary" href="">Best
+								Flight Drones</a>.</p>
+					</div>
+
+					<div class="shopping__info__item">
+						<div class="social">
+							<p class="social__title">Share this:</p>
+							<div class="social__content">
+								<a class="social__link" href="">
+									<i class="fab fa-facebook-f social__icon"></i>
+								</a>
+								<a class="social__link" href="">
+									<i class="fab fa-twitter social__icon"></i>
+								</a>
+								<a class="social__link" href="">
+									<i class="fab fa-linkedin-in social__icon"></i>
+								</a>
+								<a class="social__link" href="">
+									<i class="fab fa-pinterest-p social__icon"></i>
+								</a>
+							</div>
+						</div>
+					</div>
+					<div class="shopping__info__item"></div>
+				</div>
+			</div>
+
+		</div>
+	</section>
+
+	<!-- Accessories2 -->
+	<section class="shopping popup-window" id="accessories2--shopping-wd">
+		<div class="popup-window__content">
+			<span class="close-window" id="accessories2--close-icon">x</span>
+			<div class="shopping__content">
+				<div class="shopping__image">
+					<input type="radio" name="icons" id="accessories2--inp--img1" checked>
+					<div class="shopping__image--initial">
+						<img class="image" src="img/products/accessories/accessories2/accessories2--img--img1.jpg" alt="">
+					</div>
+					<div class="shopping__image--main" id="accessories2--img--img1">
+						<img class="image" src="img/products/accessories/accessories2/accessories2--img--img1.jpg" alt="">
+					</div>
+					<label for="accessories2--inp--img1" class="image--small" id="accessories2--lbl--img1"><img
+							class="image--thumbnail" src="img/products/accessories/accessories2/accessories2--lbl--img1.jpg"
+							alt=""></label>
+
+				</div>
+				<div class="shopping__info text--dark-color">
+					<div class="shopping__info__item">
+						<h1>B&W International Quadcopter Carrying Case</h1>
+						<p class="text--medium text--medium-color">by
+							<a href="" class="link--primary">DJI</a></p>
+						<p class="text--small marginy--xsmall">
+							<i class="far fa-star"></i>
+							<i class="far fa-star"></i>
+							<i class="far fa-star"></i>
+							<i class="far fa-star"></i>
+							<i class="far fa-star"></i>
+							No reviews
+						</p>
+						<div class="tag">
+							<p class="tag--sale style-tag--sale">Sale</p>
+							<p class="tag--cross text--medium-color text--xlarge text--line-thru">$350.00</p>
+							<p class="tag--price text--tag-sale-color text--xlarge">$315.99</p>
+						</div>
+					</div>
+
+					<div class="shopping__info__item">
+						<div class="shopping__info--quantity">
+							<div class="quantity__container">
+								<p class="text--medium text--medium-color">Quantity</p>
+								<select name="quantity" id="qty">
+									<option value="one">1</option>
+									<option value="two">2</option>
+									<option value="three">3</option>
+									<option value="four">4</option>
+									<option value="five">5</option>
+									<option value="six">6</option>
+									<option value="seven">7</option>
+									<option value="eight">8</option>
+									<option value="nine">9</option>
+									<option value="tenplus">10+</option>
+								</select>
+								<i class="fas fa-angle-down icon--dark"></i>
+							</div>
+							<a href="" class="btn--dark btn--medium">Add to cart</a>
+						</div>
+					</div>
+
+					<div class="shopping__info__item">
+						<p>The case for your DJI Phantom Copter. The prefabricated foam insert fits the DJI Phantom 2, DJI Phantom 2
+							Vision and the DJI Phantom 2 Vision+ (props have to be removed).</p>
+						<p class="marginy--small">
+							This is a demo store. You can purchase products like this from <a class="link--primary" href="">Best
+								Flight Drones</a>.</p>
+					</div>
+
+					<div class="shopping__info__item">
+						<div class="social">
+							<p class="social__title">Share this:</p>
+							<div class="social__content">
+								<a class="social__link" href="">
+									<i class="fab fa-facebook-f social__icon"></i>
+								</a>
+								<a class="social__link" href="">
+									<i class="fab fa-twitter social__icon"></i>
+								</a>
+								<a class="social__link" href="">
+									<i class="fab fa-linkedin-in social__icon"></i>
+								</a>
+								<a class="social__link" href="">
+									<i class="fab fa-pinterest-p social__icon"></i>
+								</a>
+							</div>
+						</div>
+					</div>
+					<div class="shopping__info__item"></div>
+				</div>
+			</div>
+
+		</div>
+	</section>
+
+
+	<!-- Accessories3 -->
+	<section class="shopping popup-window" id="accessories3--shopping-wd">
+		<div class="popup-window__content">
+			<span class="close-window" id="accessories3--close-icon">x</span>
+			<div class="shopping__content">
+				<div class="shopping__image">
+					<input type="radio" name="icons" id="accessories3--inp--img1" checked>
+					<div class="shopping__image--initial">
+						<img class="image" src="img/products/accessories/accessories3/accessories3--img--img1.jpg" alt="">
+					</div>
+					<div class="shopping__image--main" id="accessories3--img--img1">
+						<img class="image" src="img/products/accessories/accessories3/accessories3--img--img1.jpg" alt="">
+					</div>
+					<label for="accessories3--inp--img1" class="image--small" id="accessories3--lbl--img1"><img
+							class="image--thumbnail" src="img/products/accessories/accessories3/accessories3--lbl--img1.jpg"
+							alt=""></label>
+
+				</div>
+				<div class="shopping__info text--dark-color">
+					<div class="shopping__info__item">
+						<h1>CGO2+ Camera/Camcorder Stabilizer</h1>
+						<p class="text--medium text--medium-color">by
+							<a href="" class="link--primary">Yuneec</a></p>
+						<p class="text--small marginy--xsmall">
+							<i class="far fa-star"></i>
+							<i class="far fa-star"></i>
+							<i class="far fa-star"></i>
+							<i class="far fa-star"></i>
+							<i class="far fa-star"></i>
+							No reviews
+						</p>
+						<p class="text--xlarge">$149.00</p>
+					</div>
+
+					<div class="shopping__info__item">
+						<div class="shopping__info--quantity">
+							<div class="quantity__container">
+								<p class="text--medium text--medium-color">Quantity</p>
+								<select name="quantity" id="qty">
+									<option value="one">1</option>
+									<option value="two">2</option>
+									<option value="three">3</option>
+									<option value="four">4</option>
+									<option value="five">5</option>
+									<option value="six">6</option>
+									<option value="seven">7</option>
+									<option value="eight">8</option>
+									<option value="nine">9</option>
+									<option value="tenplus">10+</option>
+								</select>
+								<i class="fas fa-angle-down icon--dark"></i>
+							</div>
+							<a href="" class="btn--dark btn--medium">Add to cart</a>
+						</div>
+					</div>
+
+					<div class="shopping__info__item">
+						<p>The CGO SteadyGripTM is a ground handle designed to extend the CGO-GB 3-axis gyro stabilized camera from
+							the sky to the ground, allowing you to capture amazing action shots easier than ever before. The camera
+							pitch controller allows precise camera angle control on the go using your mobile device as a display. The
+							Steady- Grip's ergonomic design is capable of holding up to a 6.4 inch mobile device. </p>
+						<p>The SteadyGripTM paired with Yuneec's CGO2-GB Full-HD 3-Axis Stabilized Gimbal Camera System allows you
+							to
+							capture fluid footage right out the box. Please take the time to read through this entire instruction
+							manual for more information on safety, battery charging, camera controls and more before filming your
+							first hit video. </p>
+						<p>The Self-Stabilizing gimbal makes it possible to capture amazing photographs and video footage for an
+							array of uses. And the built-in digital video link delivers streaming video to 5.8GHz WiFi compatible iOS®
+							and AndroidTM equipped devices including smart-phones and tablets as well as YUNEEC Personal Ground
+							Stations.</p>
+						<p class="marginy--small">
+							This is a demo store. You can purchase products like this from <a class="link--primary" href="">Best
+								Flight Drones</a>.</p>
+					</div>
+
+					<div class="shopping__info__item">
+						<div class="social">
+							<p class="social__title">Share this:</p>
+							<div class="social__content">
+								<a class="social__link" href="">
+									<i class="fab fa-facebook-f social__icon"></i>
+								</a>
+								<a class="social__link" href="">
+									<i class="fab fa-twitter social__icon"></i>
+								</a>
+								<a class="social__link" href="">
+									<i class="fab fa-linkedin-in social__icon"></i>
+								</a>
+								<a class="social__link" href="">
+									<i class="fab fa-pinterest-p social__icon"></i>
+								</a>
+							</div>
+						</div>
+					</div>
+					<div class="shopping__info__item"></div>
+				</div>
+			</div>
+
+		</div>
+	</section>
+
+
+	<!-- Accessories4 -->
+	<section class="shopping popup-window" id="accessories4--shopping-wd">
+		<div class="popup-window__content">
+			<span class="close-window" id="accessories4--close-icon">x</span>
+			<div class="shopping__content">
+				<div class="shopping__image">
+
+					<!-- Radio buttons for colors -->
+					<input type="radio" name="accessories4--shopping--color" id="accessories4--shopping--color1"
+						class="radio-button">
+					<label for="accessories4--shopping--color1"
+						class="style--color-box color--loc1--shopping white-style"></label>
+
+					<input type="radio" name="accessories4--shopping--color" id="accessories4--shopping--color2"
+						class="radio-button">
+					<label for="accessories4--shopping--color2"
+						class="style--color-box color--loc2--shopping black-style"></label>
+
+					<p class="color--text1 text--dark-color"><span class="text--bold">Color:</span> White</p>
+					<p class="color--text2 text--dark-color"><span class="text--bold">Color:</span> Black</p>
+
+
+					<input type="radio" name="icons" id="accessories4--inp--img1" checked>
+					<input type="radio" name="icons" id="accessories4--inp--img2">
+					<div class="shopping__image--initial">
+						<img class="image" src="img/products/accessories/accessories4/accessories4--img--img1.jpg" alt="">
+					</div>
+					<div class="shopping__image--main" id="accessories4--img--img1">
+						<img class="image" src="img/products/accessories/accessories4/accessories4--img--img1.jpg" alt="">
+					</div>
+					<div class="shopping__image--main" id="accessories4--img--img2">
+						<img class="image" src="img/products/accessories/accessories4/accessories4--img--img2.jpg" alt="">
+					</div>
+					<label for="accessories4--inp--img1" class="image--small" id="accessories4--lbl--img1"><img
+							class="image--thumbnail" src="img/products/accessories/accessories4/accessories4--lbl--img1.jpg"
+							alt=""></label>
+					<label for="accessories4--inp--img2" class="image--small" id="accessories4--lbl--img2"><img
+							class="image--thumbnail" src="img/products/accessories/accessories4/accessories4--lbl--img2.jpg"
+							alt=""></label>
+
+				</div>
+				<div class="shopping__info text--dark-color">
+					<div class="shopping__info__item">
+						<h1>GhostDrone 2.0 iOS VR Goggles</h1>
+						<p class="text--medium text--medium-color">by
+							<a href="" class="link--primary">eHang</a></p>
+						<p class="text--small marginy--xsmall">
+							<i class="far fa-star"></i>
+							<i class="far fa-star"></i>
+							<i class="far fa-star"></i>
+							<i class="far fa-star"></i>
+							<i class="far fa-star"></i>
+							No reviews
+						</p>
+						<div class="tag">
+							<p class="tag--sale style-tag--sale">Sale</p>
+							<p class="tag--cross text--medium-color text--xlarge text--line-thru">$400.00</p>
+							<p class="tag--price text--tag-sale-color text--xlarge">$349.99</p>
+						</div>
+					</div>
+
+					<div class="shopping__info__item">
+						<div class="shopping__info--quantity">
+							<div class="quantity__container">
+								<p class="text--medium text--medium-color">Quantity</p>
+								<select name="quantity" id="qty">
+									<option value="one">1</option>
+									<option value="two">2</option>
+									<option value="three">3</option>
+									<option value="four">4</option>
+									<option value="five">5</option>
+									<option value="six">6</option>
+									<option value="seven">7</option>
+									<option value="eight">8</option>
+									<option value="nine">9</option>
+									<option value="tenplus">10+</option>
+								</select>
+								<i class="fas fa-angle-down icon--dark"></i>
+							</div>
+							<a href="" class="btn--dark btn--medium">Add to cart</a>
+						</div>
+					</div>
+
+					<div class="shopping__info__item">
+						<p>eHang VR goggles let you see through the eyes of GhostDrone for a truly immersive experience.
+							Bluetooth/Wi-Fi + 2.4 GHz data transmission and +5.8 GHz video transmission. The view switch feature
+							changes the goggle view from video transmission mode to front camera mode with the push of a button so you
+							can see what is in front of you without taking off the goggles.</p>
+						<p class="marginy--small">
+							This is a demo store. You can purchase products like this from <a class="link--primary" href="">Best
+								Flight Drones</a>.</p>
+					</div>
+
+					<div class="shopping__info__item">
+						<div class="social">
+							<p class="social__title">Share this:</p>
+							<div class="social__content">
+								<a class="social__link" href="">
+									<i class="fab fa-facebook-f social__icon"></i>
+								</a>
+								<a class="social__link" href="">
+									<i class="fab fa-twitter social__icon"></i>
+								</a>
+								<a class="social__link" href="">
+									<i class="fab fa-linkedin-in social__icon"></i>
+								</a>
+								<a class="social__link" href="">
+									<i class="fab fa-pinterest-p social__icon"></i>
+								</a>
+							</div>
+						</div>
+					</div>
+					<div class="shopping__info__item"></div>
+				</div>
+			</div>
+
+		</div>
+	</section>
+
+	<!-- Accessories5 -->
+	<section class="shopping popup-window" id="accessories5--shopping-wd">
+		<div class="popup-window__content">
+			<span class="close-window" id="accessories5--close-icon">x</span>
+			<div class="shopping__content">
+				<div class="shopping__image">
+
+					<!-- Radio buttons for colors -->
+					<input type="radio" name="accessories5--shopping--color" id="accessories5--shopping--color1"
+						class="radio-button">
+					<label for="accessories5--shopping--color1"
+						class="style--color-box color--loc1--shopping black-style"></label>
+
+					<input type="radio" name="accessories5--shopping--color" id="accessories5--shopping--color2"
+						class="radio-button">
+					<label for="accessories5--shopping--color2"
+						class="style--color-box color--loc2--shopping orange-style"></label>
+
+					<input type="radio" name="accessories5--shopping--color" id="accessories5--shopping--color3"
+						class="radio-button">
+					<label for="accessories5--shopping--color3" class="style--color-box color--loc3--shopping cian-style"></label>
+
+					<input type="radio" name="accessories5--shopping--color" id="accessories5--shopping--color4"
+						class="radio-button">
+					<label for="accessories5--shopping--color4"
+						class="style--color-box color--loc4--shopping white-style"></label>
+
+					<p class="color--text1 text--dark-color"><span class="text--bold">Color:</span> Black</p>
+					<p class="color--text2 text--dark-color"><span class="text--bold">Color:</span> Orange</p>
+					<p class="color--text3 text--dark-color"><span class="text--bold">Color:</span> Cian</p>
+					<p class="color--text4 text--dark-color"><span class="text--bold">Color:</span> White</p>
+
+
+					<input type="radio" name="icons" id="accessories5--inp--img1" checked>
+					<input type="radio" name="icons" id="accessories5--inp--img2">
+					<input type="radio" name="icons" id="accessories5--inp--img3">
+					<input type="radio" name="icons" id="accessories5--inp--img4">
+					<div class="shopping__image--initial">
+						<img class="image" src="img/products/accessories/accessories5/accessories5--img--img1.jpg" alt="">
+					</div>
+					<div class="shopping__image--main" id="accessories5--img--img1">
+						<img class="image" src="img/products/accessories/accessories5/accessories5--img--img1.jpg" alt="">
+					</div>
+					<div class="shopping__image--main" id="accessories5--img--img2">
+						<img class="image" src="img/products/accessories/accessories5/accessories5--img--img2.jpg" alt="">
+					</div>
+					<div class="shopping__image--main" id="accessories5--img--img3">
+						<img class="image" src="img/products/accessories/accessories5/accessories5--img--img3.jpg" alt="">
+					</div>
+					<div class="shopping__image--main" id="accessories5--img--img4">
+						<img class="image" src="img/products/accessories/accessories5/accessories5--img--img4.jpg" alt="">
+					</div>
+					<label for="accessories5--inp--img1" class="image--small" id="accessories5--lbl--img1"><img
+							class="image--thumbnail" src="img/products/accessories/accessories5/accessories5--lbl--img1.jpg"
+							alt=""></label>
+					<label for="accessories5--inp--img2" class="image--small" id="accessories5--lbl--img2"><img
+							class="image--thumbnail" src="img/products/accessories/accessories5/accessories5--lbl--img2.jpg"
+							alt=""></label>
+					<label for="accessories5--inp--img3" class="image--small" id="accessories5--lbl--img3"><img
+							class="image--thumbnail" src="img/products/accessories/accessories5/accessories5--lbl--img3.jpg"
+							alt=""></label>
+					<label for="accessories5--inp--img4" class="image--small" id="accessories5--lbl--img4"><img
+							class="image--thumbnail" src="img/products/accessories/accessories5/accessories5--lbl--img4.jpg"
+							alt=""></label>
+
+				</div>
+				<div class="shopping__info text--dark-color">
+					<div class="shopping__info__item">
+						<h1>GhostDrone 2.0 Propellers</h1>
+						<p class="text--medium text--medium-color">by
+							<a href="" class="link--primary">eHang</a></p>
+						<p class="text--small marginy--xsmall">
+							<i class="far fa-star"></i>
+							<i class="far fa-star"></i>
+							<i class="far fa-star"></i>
+							<i class="far fa-star"></i>
+							<i class="far fa-star"></i>
+							No reviews
+						</p>
+						<p class="text--xlarge">$19.00</p>
+					</div>
+
+					<div class="shopping__info__item">
+						<div class="shopping__info--quantity">
+							<div class="quantity__container">
+								<p class="text--medium text--medium-color">Quantity</p>
+								<select name="quantity" id="qty">
+									<option value="one">1</option>
+									<option value="two">2</option>
+									<option value="three">3</option>
+									<option value="four">4</option>
+									<option value="five">5</option>
+									<option value="six">6</option>
+									<option value="seven">7</option>
+									<option value="eight">8</option>
+									<option value="nine">9</option>
+									<option value="tenplus">10+</option>
+								</select>
+								<i class="fas fa-angle-down icon--dark"></i>
+							</div>
+							<a href="" class="btn--dark btn--medium">Add to cart</a>
+						</div>
+					</div>
+
+					<div class="shopping__info__item">
+						<p>GhostDrones use high efficiency two-bladed reversible self-tightening propellers. This set includes two
+							pairs of propellers. Two blades are for the right side and two blades are for the left side of the
+							aircraft. These are appropriate blades to use as replacements for original propellers included with
+							GhostDrone 2.0 and GhostDrone 2.0 Aerial.</p>
+						<p class="marginy--small">
+							This is a demo store. You can purchase products like this from <a class="link--primary" href="">Best
+								Flight Drones</a>.</p>
+					</div>
+
+					<div class="shopping__info__item">
+						<div class="social">
+							<p class="social__title">Share this:</p>
+							<div class="social__content">
+								<a class="social__link" href="">
+									<i class="fab fa-facebook-f social__icon"></i>
+								</a>
+								<a class="social__link" href="">
+									<i class="fab fa-twitter social__icon"></i>
+								</a>
+								<a class="social__link" href="">
+									<i class="fab fa-linkedin-in social__icon"></i>
+								</a>
+								<a class="social__link" href="">
+									<i class="fab fa-pinterest-p social__icon"></i>
+								</a>
+							</div>
+						</div>
+					</div>
+					<div class="shopping__info__item"></div>
+				</div>
+			</div>
+
+		</div>
+	</section>
+
+	<!-- Accessories6 -->
+	<section class="shopping popup-window" id="accessories6--shopping-wd">
+		<div class="popup-window__content">
+			<span class="close-window" id="accessories6--close-icon">x</span>
+			<div class="shopping__content">
+				<div class="shopping__image">
+
+					<!-- Radio buttons for colors -->
+					<input type="radio" name="accessories6--shopping--color" id="accessories6--shopping--color1"
+						class="radio-button">
+					<label for="accessories6--shopping--color1"
+						class="style--color-box color--loc1--shopping white-style"></label>
+
+					<input type="radio" name="accessories6--shopping--color" id="accessories6--shopping--color2"
+						class="radio-button">
+					<label for="accessories6--shopping--color2"
+						class="style--color-box color--loc2--shopping black-style"></label>
+
+					<p class="color--text1 text--dark-color"><span class="text--bold">Color:</span> White</p>
+					<p class="color--text2 text--dark-color"><span class="text--bold">Color:</span> Black</p>
+
+
+					<input type="radio" name="icons" id="accessories6--inp--img1" checked>
+					<input type="radio" name="icons" id="accessories6--inp--img2">
+					<div class="shopping__image--initial">
+						<img class="image" src="img/products/accessories/accessories6/accessories6--img--img1.jpg" alt="">
+					</div>
+					<div class="shopping__image--main" id="accessories6--img--img1">
+						<img class="image" src="img/products/accessories/accessories6/accessories6--img--img1.jpg" alt="">
+					</div>
+					<div class="shopping__image--main" id="accessories6--img--img2">
+						<img class="image" src="img/products/accessories/accessories6/accessories6--img--img2.jpg" alt="">
+					</div>
+					<label for="accessories6--inp--img1" class="image--small" id="accessories6--lbl--img1"><img
+							class="image--thumbnail" src="img/products/accessories/accessories6/accessories6--lbl--img1.jpg"
+							alt=""></label>
+					<label for="accessories6--inp--img2" class="image--small" id="accessories6--lbl--img2"><img
+							class="image--thumbnail" src="img/products/accessories/accessories6/accessories6--lbl--img2.jpg"
+							alt=""></label>
+
+				</div>
+				<div class="shopping__info text--dark-color">
+					<div class="shopping__info__item">
+						<h1>Inspire 1 TB47 Intelligent Flight Battery 4500 mAh</h1>
+						<p class="text--medium text--medium-color">by
+							<a href="" class="link--primary">DJI</a></p>
+						<p class="text--small marginy--xsmall">
+							<i class="far fa-star"></i>
+							<i class="far fa-star"></i>
+							<i class="far fa-star"></i>
+							<i class="far fa-star"></i>
+							<i class="far fa-star"></i>
+							No reviews
+						</p>
+						<p class="text--xlarge">$159.00</p>
+					</div>
+
+					<div class="shopping__info__item">
+						<div class="shopping__info--quantity">
+							<div class="quantity__container">
+								<p class="text--medium text--medium-color">Quantity</p>
+								<select name="quantity" id="qty">
+									<option value="one">1</option>
+									<option value="two">2</option>
+									<option value="three">3</option>
+									<option value="four">4</option>
+									<option value="five">5</option>
+									<option value="six">6</option>
+									<option value="seven">7</option>
+									<option value="eight">8</option>
+									<option value="nine">9</option>
+									<option value="tenplus">10+</option>
+								</select>
+								<i class="fas fa-angle-down icon--dark"></i>
+							</div>
+							<a href="" class="btn--dark btn--medium">Add to cart</a>
+						</div>
+					</div>
+
+					<div class="shopping__info__item">
+						<p>Get more flight time from your Inspire 1 by bringing along extra Intelligent Flight Batteries. With
+							built-in charging and capacity sensors for safe use, each TB47 battery gives you up to 18 minutes of
+							flight time. When in flight, remaining battery power is shown live, letting you know how long you can
+							continue to fly. Algorithms calculate the distance of your aircraft and estimated time to return home,
+							letting you know when it's time to fly back. The battery reports the voltage of each cell, the total
+							lifetime charges and discharges, and the overall health and battery status. LED indicators tell you
+							remaining battery capacity or charger status. They are visible from the exterior of the aircraft.</p>
+						<p class="marginy--small">
+							This is a demo store. You can purchase products like this from <a class="link--primary" href="">Best
+								Flight Drones</a>.</p>
+					</div>
+
+					<div class="shopping__info__item">
+						<div class="social">
+							<p class="social__title">Share this:</p>
+							<div class="social__content">
+								<a class="social__link" href="">
+									<i class="fab fa-facebook-f social__icon"></i>
+								</a>
+								<a class="social__link" href="">
+									<i class="fab fa-twitter social__icon"></i>
+								</a>
+								<a class="social__link" href="">
+									<i class="fab fa-linkedin-in social__icon"></i>
+								</a>
+								<a class="social__link" href="">
+									<i class="fab fa-pinterest-p social__icon"></i>
+								</a>
+							</div>
+						</div>
+					</div>
+					<div class="shopping__info__item"></div>
+				</div>
+			</div>
+
+		</div>
+	</section>
+
+
+
+	<!-- Footer -->
+	<footer class="footer">
+		<div class="container">
+			<div class="footer__menu paddingy--large">
+				<div class="footer__item">
+					<input type="checkbox" name="footer-option1" id="footer__check1" class="check-button">
+					<label for="footer__check1" class="footer__dropdown">
+						<h3 class="footer__title text--dark-color">Navigate</h3>
+					</label>
+					<ul>
+						<li><a class="text--medium text--dark-color" href="">Search</a></li>
+						<li><a class="text--medium text--dark-color" href="">About</a></li>
+						<li><a class="text--medium text--dark-color" href="">Contact</a></li>
+						<li><a class="text--medium text--dark-color" href="">Blog</a></li>
+					</ul>
+				</div>
+				<div class="horizontal-line"></div>
+				<div class="footer__item">
+					<input type="checkbox" name="footer-option2" id="footer__check2" class="check-button">
+					<label for="footer__check2" class="footer__dropdown">
+						<h3 class="footer__title text--dark-color">Collections</h3>
+					</label>
+					<ul>
+						<li><a class="text--medium text--dark-color" href="drones.html">Drones</a></li>
+						<li><a class="text--medium text--dark-color" href="">Cameras</a></li>
+						<li><a class="text--medium text--dark-color" href="">Parts + Tools</a></li>
+						<li><a class="text--medium text--dark-color" href="">Accessories</a></li>
+					</ul>
+				</div>
+				<div class="horizontal-line"></div>
+				<div class="footer__item">
+					<input type="checkbox" name="footer-option3" id="footer__check3" class="check-button">
+					<label for="footer__check3" class="footer__dropdown">
+						<h3 class="footer__title text--dark-color">Support</h3>
+					</label>
+					<ul>
+						<li><a class="text--medium text--dark-color" href="">Theme Features</a></li>
+						<li><a class="text--medium text--dark-color" href="">Shipping</a></li>
+						<li><a class="text--medium text--dark-color" href="">Returns</a></li>
+						<li><a class="text--medium text--dark-color" href="">About</a></li>
+					</ul>
+				</div>
+				<div class="horizontal-line"></div>
+				<div class="footer__item">
+					<div class="social">
+						<p class="social__title">Follow us</p>
+						<div class="social__content">
+							<a class="social__link" href="">
+								<i class="fab fa-facebook-f social__icon"></i>
+							</a>
+							<a class="social__link" href="">
+								<i class="fab fa-twitter social__icon"></i>
+							</a>
+							</a>
+							<a class="social__link" href="">
+								<i class="fab fa-pinterest social__icon"></i>
+							</a>
+							<a class="social__link" href="">
+								<i class="fab fa-instagram social__icon"></i>
+							</a>
+							<a class="social__link" href="">
+								<i class="fas fa-envelope social__icon"></i>
+							</a>
+
+						</div>
+					</div>
+				</div>
+				<div class="horizontal-line"></div>
+			</div>
+			<div class="footer__copyright">
+				<div class="left">
+					<p class="text--small text--gray-color">Copyright © 2020 Empire Industrial.</p>
+					<a class="text--small text--gray-color" href="">Powered by Shopify</a>
+				</div>
+				<div class="right">
+					<select name="currency" id="currency">
+						<option value="USD">USD $</option>
+						<option value="GBP">GBP £</option>
+						<option value="EUR">EUR €</option>
+						<option value="CAD">CAD $</option>
+						<option value="AUD">AUD $</option>
+					</select>
+					<i class="fas fa-angle-down icon--dark"></i>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+	<!-- 
+		=================
+		Scripts 
+	===================-->
+	<!-- Product popup -->
+	<script src="js/main.js">	</script>
+	<!-- <script src="js/test.js">	</script> -->
+
+
+	<!-- Script for Icons -->
+	<script src="https://kit.fontawesome.com/3c5d2efabe.js" crossorigin="anonymous"></script>
+</body>
+
+</html>

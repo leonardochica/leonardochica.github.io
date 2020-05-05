@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+	<link rel="stylesheet" href="css/main.css">
+	<title>The Drone Store | About</title>
+</head>
+
+<body>
+	<header class="main-header">
+		<div class="main-header__content container">
+			<div class="main-header__top">
+				<div class="main-header__logo">
+					<a href="index.html">
+						<img src="img/logo.png" alt="logo" class="logo">
+					</a>
+				</div>
+
+				<!-- Search box -->
+				<div class="main-header__search">
+					<div class="main-header__categories">
+						<select name="categories" id="category">
+							<option value="All-categories">All categories</option>
+							<option value="none" disabled>------</option>
+							<option value="Adapter">Adapter</option>
+							<option value="Arm">Arm</option>
+							<option value="Backpack">Backpack</option>
+							<option value="Base">Base</option>
+							<option value="Cable">Cable</option>
+							<option value="Camera">Camera</option>
+							<option value="Controller">Controller</option>
+							<option value="Drone">Drone</option>
+							<option value="Gimbal">Gimbal</option>
+							<option value="Motor">Motor</option>
+							<option value="Propeller">Propeller</option>
+							<option value="Quadcopter">Quadcopter</option>
+							<option value="Remote-Controller">Remote Controller</option>
+						</select>
+						<i class="fas fa-angle-down icon--dark"></i>
+					</div>
+					<div class="main-header__search-box">
+						<input type="text" placeholder="What are you looking for?">
+					</div>
+					<div class="main-header__search-icon">
+						<a href="">
+							<i class="fas fa-search icon--light"></i>
+						</a>
+					</div>
+				</div>
+
+				<!-- Shopping cart icon -->
+				<div class="main-header__shopping">
+					<a href="">
+						<i class="fas fa-shopping-cart icon--light"></i>
+						<div class="main-header__shopping__cart text--small">2</div>
+					</a>
+				</div>
+			</div>
+
+
+			<!-- Hamburger Menu -->
+			<input type="checkbox" name="burger-check" id="burger-menu--check" class="check-button">
+			<div class="burger-menu">
+				<div class="burger-menu__line"></div>
+				<label for="burger-menu--check" class="burger-menu--toggler"></label>
+			</div>
+			<div id="navbar__home"></div>
+			<!-- Navigation -->
+			<nav class="navbar" id="navbar-popup">
+				<ul class="navbar__menu">
+					<span class="navbar__close-window" id="navbar--close-icon">x</span>
+
+					<!-- Drones -->
+					<li class="navbar__item"><a class="link--light" href="drones.html">Drones</a></li>
+
+					<!-- Cameras -->
+					<input type="checkbox" name="navbar__item1" id="navbar__item--check1" class="check-button">
+					<li class="navbar__item hover" id="navbar__dropdown--hover1">
+						<label for="navbar__item--check1" class="navbar__item--list">
+							<a class="navbar__item--link link--light" href="cameras.html">Cameras
+								<i class="fas fa-angle-down icon--light"></i>
+							</a>
+						</label>
+						<div>
+							<ul class="navbar__dropdown">
+								<input type="checkbox" name="navbar-subitem1" id="navbar__dropdown--check1" class="check-button">
+								<label for="navbar__dropdown--check1" class="navbar__dropdown--list">
+									<li class="navbar__subitem--first"><a class="link--dark" href="#">DJI</a>
+										<i class="fas fa-angle-down icon--dark"></i>
+									</li>
+								</label>
+								<li class="navbar__subitem"><a class="link--medium" href="#">Digital Camcorder</a></li>
+								<li class="navbar__subitem"><a class="link--medium" href="#">Osmo</a></li>
+								<li class="navbar__subitem"><a class="link--medium" href="#">Ronin-M Gimbal Stabilizer</a></li>
+								<li class="navbar__subitem"><a class="link--medium" href="#">Ronin-H3 Stabilizer</a></li>
+								<li class="navbar__subitem"><a class="link--medium" href="#">Zenmuse H3 Gimbal</a></li>
+							</ul>
+							<ul class="navbar__dropdown">
+								<input type="checkbox" name="navbar-subitem2" id="navbar__dropdown--check2" class="check-button">
+								<label for="navbar__dropdown--check2" class="navbar__dropdown--list">
+									<li class="navbar__subitem--first"><a class="link--dark" href="#">Other</a>
+										<i class="fas fa-angle-down icon--dark"></i>
+									</li>
+								</label>
+								<li class="navbar__subitem"><a class="link--medium" href="#">Yuneec CGO2+ Camera</a></li>
+								<li class="navbar__subitem"><a class="link--medium" href="#">Autel X-Star 4K Camera</a></li>
+							</ul>
+							<ul class="navbar__dropdown">
+								<li class="navbar__subitem--image">
+									<img class="navbar__dropdown--image" src="img/dropdown/camera.jpg" alt="">
+									<p class="text--center">CGO2+ Camera</p>
+								</li>
+							</ul>
+							<ul class="navbar__dropdown"></ul>
+						</div>
+					</li>
+
+
+					<!-- Parts & Tools -->
+					<input type="checkbox" name="navbar__item2" id="navbar__item--check2" class="check-button">
+					<li class="navbar__item hover" id="navbar__dropdown--hover2">
+						<label for="navbar__item--check2" class="navbar__item--list">
+							<a class="navbar__item--link link--light" href="parts_tools.html">Parts & Tools
+								<i class="fas fa-angle-down icon--light"></i>
+							</a>
+						</label>
+						<div>
+							<ul class="navbar__dropdown">
+								<input type="checkbox" name="navbar-subitem3" id="navbar__dropdown--check3" class="check-button">
+								<label for="navbar__dropdown--check3" class="navbar__dropdown--list">
+									<li class="navbar__subitem--first"><a class="link--dark" href="#">Autel</a>
+										<i class="fas fa-angle-down icon--dark"></i>
+									</li>
+								</label>
+								<li class="navbar__subitem"><a class="link--medium" href="#">X-Star Landing Gear</a></li>
+								<li class="navbar__subitem"><a class="link--medium" href="#">X-Star Premium Controller</a></li>
+								<li class="navbar__subitem"><a class="link--medium" href="#">X-Star Premium Craft Only</a></li>
+								<li class="navbar__subitem"><a class="link--medium" href="#">X-Star Propellers</a></li>
+							</ul>
+							<ul class="navbar__dropdown">
+								<input type="checkbox" name="navbar-subitem4" id="navbar__dropdown--check4" class="check-button">
+								<label for="navbar__dropdown--check4" class="navbar__dropdown--list">
+									<li class="navbar__subitem--first"><a class="link--dark" href="#">DJI</a>
+										<i class="fas fa-angle-down icon--dark"></i>
+									</li>
+								</label>
+								<li class="navbar__subitem"><a class="link--medium" href="#">HDMI Output Module</a></li>
+								<li class="navbar__subitem"><a class="link--medium" href="#">Inspire 11356T Propellers</a></li>
+								<li class="navbar__subitem"><a class="link--medium" href="#">Inspire 11360T Propellers</a></li>
+								<li class="navbar__subitem"><a class="link--medium" href="#">Inspire 1 Remote Controller</a></li>
+								<li class="navbar__subitem"><a class="link--medium" href="#">Mavic Battery Charging Hub</a></li>
+							</ul>
+							<ul class="navbar__dropdown">
+								<input type="checkbox" name="navbar-subitem5" id="navbar__dropdown--check5" class="check-button">
+								<label for="navbar__dropdown--check5" class="navbar__dropdown--list">
+									<li class="navbar__subitem--first"><a class="link--dark" href="#">Yuneec</a>
+										<i class="fas fa-angle-down icon--dark"></i>
+									</li>
+								</label>
+								<li class="navbar__subitem"><a class="link--medium" href="#">Extra Drone Screws</a></li>
+								<li class="navbar__subitem"><a class="link--medium" href="#">Typoon Q500 Brushless ESC (Front)</a></li>
+								<li class="navbar__subitem"><a class="link--medium" href="#">Typoon Q500 Brushless Motor</a></li>
+								<li class="navbar__subitem"><a class="link--medium" href="#">Typoon Q500 Brushless Landing Gear</a></li>
+							</ul>
+							<ul class="navbar__dropdown">
+								<li class="navbar__subitem--image">
+									<img class="navbar__dropdown--image" src="img/dropdown/parts_and_tools.jpg" alt="">
+									<p class="text--center">HDMI Output Module</p>
+								</li>
+							</ul>
+							<ul class="navbar__dropdown"></ul>
+						</div>
+					</li>
+
+					<!-- Accessories -->
+					<input type="checkbox" name="navbar__item3" id="navbar__item--check3" class="check-button">
+					<li class="navbar__item hover" id="navbar__dropdown--hover3">
+						<label for="navbar__item--check3" class="navbar__item--list">
+							<a class="navbar__item--link link--light" href="accessories.html">Accessories
+								<i class="fas fa-angle-down icon--light"></i>
+							</a>
+						</label>
+						<div>
+							<ul class="navbar__dropdown">
+								<input type="checkbox" name="navbar-subitem6" id="navbar__dropdown--check6" class="check-button">
+								<label for="navbar__dropdown--check6" class="navbar__dropdown--list">
+									<li class="navbar__subitem--first"><a class="link--dark" href="#">DJI</a>
+										<i class="fas fa-angle-down icon--dark"></i>
+									</li>
+								</label>
+								<li class="navbar__subitem"><a class="link--medium" href="#">15mm F1.7 Lens</a></li>
+								<li class="navbar__subitem"><a class="link--medium" href="#">A3 Flight Controller</a></li>
+								<li class="navbar__subitem"><a class="link--medium" href="#">Bebop 2 Battery</a></li>
+							</ul>
+							<ul class="navbar__dropdown">
+								<input type="checkbox" name="navbar-subitem7" id="navbar__dropdown--check7" class="check-button">
+								<label for="navbar__dropdown--check7" class="navbar__dropdown--list">
+									<li class="navbar__subitem--first"><a class="link--dark" href="#">Autel</a>
+										<i class="fas fa-angle-down icon--dark"></i>
+									</li>
+								</label>
+								<li class="navbar__subitem"><a class="link--medium" href="#">X-Star Battery</a></li>
+								<li class="navbar__subitem"><a class="link--medium" href="#">X-Star Battery Charger</a></li>
+								<li class="navbar__subitem"><a class="link--medium" href="#">X-Star Premium Controller</a></li>
+							</ul>
+							<ul class="navbar__dropdown">
+								<input type="checkbox" name="navbar-subitem8" id="navbar__dropdown--check8" class="check-button">
+								<label for="navbar__dropdown--check8" class="navbar__dropdown--list">
+									<li class="navbar__subitem--first"><a class="link--dark" href="#">yuneec</a>
+										<i class="fas fa-angle-down icon--dark"></i>
+									</li>
+								</label>
+								<li class="navbar__subitem"><a class="link--medium" href="#">CGO2+ Camera/Camcorder Stabilizer</a></li>
+								<li class="navbar__subitem"><a class="link--medium" href="#">E-GO2 Electronic Controller</a></li>
+								<li class="navbar__subitem"><a class="link--medium" href="#">E-GO2 Wheel Set</a></li>
+								<li class="navbar__subitem"><a class="link--medium" href="#">Typhoon H Battery</a></li>
+							</ul>
+							<ul class="navbar__dropdown">
+								<li class="navbar__subitem--image">
+									<img class="navbar__dropdown--image" src="img/dropdown/Accessories.jpg" alt="">
+									<p class="text--center">15mm F1.7 Lens</p>
+								</li>
+							</ul>
+							<ul class="navbar__dropdown"></ul>
+						</div>
+					</li>
+
+					<!-- Sale -->
+					<li class="navbar__item"><a class="link--light" href="sale.html">Sale</a></li>
+					<!-- Blog -->
+					<li class="navbar__item"><a class="link--light" href="blog.html">Blog</a></li>
+					<!-- About -->
+					<li class="navbar__item"><a class="link--light" href="about.html">About</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+
+
+
+
+	<!-- Section: About -->
+	<section class="about paddingy--medium margin--bottom--large">
+		<div class="container">
+			<h1 class="text--dark-color text--xxlarge text--center marginy--small"> About
+
+			</h1>
+			<div class="about__container">
+
+				<p class="about__text">Big thanks to <a class="link--primary text--bold" href="">Best
+						Flight Drones</a> for allowing us to use their images for this demo theme. Below is a little bit about them
+					in their own words:</p>
+
+				<p class="about__text">"BestFlight Drones offers you high-quality drones and drone equipment so that you can
+					create solutions to
+					make your work easier or just have more fun flying your drone. We want to put you above the ground, where
+					dreams are born and time is lost. Drone technology is advancing quickly, and BestFlight stands in position to
+					offer these innovations to you so you can build your drones to do exactly what you want them to do. We work
+					with small business owners who use their drones as promotional tools, and those who simply want to expand
+					their mind by flying their drones to heights they couldn’t reach before.</p>
+				<p class="about__text">Whether you need a new outdoor activity like flying drones but you’re not sure you can
+					afford to get into it,
+					or you’re a veteran drone flier looking for a better experience, we have the inventory and the experience
+					flying them ourselves to get you what you’re looking for. At BestFlight Drones, we offer you a definitive way
+					to take flight without leaving the ground."</p>
+
+
+
+			</div>
+		</div>
+	</section>
+
+
+
+	<!-- Footer -->
+	<footer class="footer">
+		<div class="container">
+			<div class="footer__menu paddingy--large">
+				<div class="footer__item">
+					<input type="checkbox" name="footer-option1" id="footer__check1" class="check-button">
+					<label for="footer__check1" class="footer__dropdown">
+						<h3 class="footer__title text--dark-color">Navigate</h3>
+					</label>
+					<ul>
+						<li><a class="text--medium text--dark-color" href="">Search</a></li>
+						<li><a class="text--medium text--dark-color" href="">About</a></li>
+						<li><a class="text--medium text--dark-color" href="">Contact</a></li>
+						<li><a class="text--medium text--dark-color" href="">Blog</a></li>
+					</ul>
+				</div>
+				<div class="horizontal-line"></div>
+				<div class="footer__item">
+					<input type="checkbox" name="footer-option2" id="footer__check2" class="check-button">
+					<label for="footer__check2" class="footer__dropdown">
+						<h3 class="footer__title text--dark-color">Collections</h3>
+					</label>
+					<ul>
+						<li><a class="text--medium text--dark-color" href="drones.html">Drones</a></li>
+						<li><a class="text--medium text--dark-color" href="">Cameras</a></li>
+						<li><a class="text--medium text--dark-color" href="">Parts + Tools</a></li>
+						<li><a class="text--medium text--dark-color" href="">Accessories</a></li>
+					</ul>
+				</div>
+				<div class="horizontal-line"></div>
+				<div class="footer__item">
+					<input type="checkbox" name="footer-option3" id="footer__check3" class="check-button">
+					<label for="footer__check3" class="footer__dropdown">
+						<h3 class="footer__title text--dark-color">Support</h3>
+					</label>
+					<ul>
+						<li><a class="text--medium text--dark-color" href="">Theme Features</a></li>
+						<li><a class="text--medium text--dark-color" href="">Shipping</a></li>
+						<li><a class="text--medium text--dark-color" href="">Returns</a></li>
+						<li><a class="text--medium text--dark-color" href="">About</a></li>
+					</ul>
+				</div>
+				<div class="horizontal-line"></div>
+				<div class="footer__item">
+					<div class="social">
+						<p class="social__title">Follow us</p>
+						<div class="social__content">
+							<a class="social__link" href="">
+								<i class="fab fa-facebook-f social__icon"></i>
+							</a>
+							<a class="social__link" href="">
+								<i class="fab fa-twitter social__icon"></i>
+							</a>
+							</a>
+							<a class="social__link" href="">
+								<i class="fab fa-pinterest social__icon"></i>
+							</a>
+							<a class="social__link" href="">
+								<i class="fab fa-instagram social__icon"></i>
+							</a>
+							<a class="social__link" href="">
+								<i class="fas fa-envelope social__icon"></i>
+							</a>
+
+						</div>
+					</div>
+				</div>
+				<div class="horizontal-line"></div>
+			</div>
+			<div class="footer__copyright">
+				<div class="left">
+					<p class="text--small text--gray-color">Copyright © 2020 Empire Industrial.</p>
+					<a class="text--small text--gray-color" href="">Powered by Shopify</a>
+				</div>
+				<div class="right">
+					<select name="currency" id="currency">
+						<option value="USD">USD $</option>
+						<option value="GBP">GBP £</option>
+						<option value="EUR">EUR €</option>
+						<option value="CAD">CAD $</option>
+						<option value="AUD">AUD $</option>
+					</select>
+					<i class="fas fa-angle-down icon--dark"></i>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+	<!-- Main Script -->
+	<script src="js/main.js"></script>
+
+	<!-- Script for Icons -->
+	<script src="https://kit.fontawesome.com/3c5d2efabe.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
