@@ -1,6 +1,6 @@
 .container {
   max-width: 1200px;
-  margin: auto;
+  margin: 0 auto;
   padding: 0 1rem; }
 
 a {
@@ -432,7 +432,10 @@ a {
   top: 82%;
   left: 1.2rem; }
 
-.color--text1, .color--text2, .color--text3, .color--text4 {
+.color--text1,
+.color--text2,
+.color--text3,
+.color--text4 {
   position: absolute;
   opacity: 0;
   top: 1.5rem;
@@ -2678,7 +2681,7 @@ a {
           color: #0076de;
           font-weight: 700; }
       .collection__filters .filter__check:checked::after {
-        content: "\2713";
+        content: '\2713';
         position: absolute;
         top: 0;
         left: 0;
@@ -3079,7 +3082,8 @@ a {
         white-space: nowrap;
         padding: 0.6rem 0.2rem;
         opacity: 0; }
-    #grid:checked ~ .products .products__grid__card .card__info .card__text, #grid:checked ~ .products .products__grid__card .card__info .card__link {
+    #grid:checked ~ .products .products__grid__card .card__info .card__text,
+    #grid:checked ~ .products .products__grid__card .card__info .card__link {
       display: none; }
     #grid:checked ~ .products .products__grid__card:hover {
       margin-bottom: -6.2rem;
@@ -5230,7 +5234,8 @@ ul {
       .navbar .hover:hover div .navbar__dropdown--image {
         display: block;
         width: 240px; }
-    .navbar .hover:hover div .navbar__subitem, .navbar .hover:hover div .navbar__subitem--first {
+    .navbar .hover:hover div .navbar__subitem,
+    .navbar .hover:hover div .navbar__subitem--first {
       display: block;
       line-height: 2; }
 
@@ -5401,7 +5406,9 @@ ul {
     display: flex;
     width: 300vw;
     align-items: center; }
-    .showcase__container #frame1, .showcase__container #frame2, .showcase__container #frame3 {
+    .showcase__container #frame1,
+    .showcase__container #frame2,
+    .showcase__container #frame3 {
       background: rgba(179, 179, 179, 0.3); }
   .showcase__slide {
     width: 100vw;
@@ -5419,7 +5426,8 @@ ul {
       margin: auto;
       display: inline-block;
       margin: 2rem 0.5rem 5rem 0.5rem; }
-    .showcase__slide .prev, .showcase__slide .next {
+    .showcase__slide .prev,
+    .showcase__slide .next {
       position: absolute;
       top: 50%;
       transform: translateY(-50%);
@@ -5427,7 +5435,8 @@ ul {
       opacity: 0.5;
       cursor: pointer;
       font-size: 4rem; }
-      .showcase__slide .prev:hover, .showcase__slide .next:hover {
+      .showcase__slide .prev:hover,
+      .showcase__slide .next:hover {
         font-size: 6rem; }
     .showcase__slide .prev {
       left: 2rem; }
@@ -5438,7 +5447,9 @@ ul {
     top: 90%;
     left: 50%;
     transform: translate(-50%, -50%); }
-  .showcase #image1, .showcase #image2, .showcase #image3 {
+  .showcase #image1,
+  .showcase #image2,
+  .showcase #image3 {
     display: none; }
   .showcase #image1:checked ~ .showcase__container {
     transform: translateX(0); }
@@ -5465,14 +5476,17 @@ ul {
 @media (max-width: 500px) {
   .showcase__container {
     position: relative; }
-    .showcase__container #frame1, .showcase__container #frame2, .showcase__container #frame3 {
+    .showcase__container #frame1,
+    .showcase__container #frame2,
+    .showcase__container #frame3 {
       background: none; }
     .showcase__container .slide__info {
       position: absolute;
       top: 100%;
       width: 100%;
       padding-top: 2.5rem; }
-      .showcase__container .slide__info h1, .showcase__container .slide__info p {
+      .showcase__container .slide__info h1,
+      .showcase__container .slide__info p {
         color: #1d2236; }
       .showcase__container .slide__info h1 {
         font-size: 1.3rem; }
@@ -5568,7 +5582,8 @@ ul {
     .grid__item:nth-of-type(1), .grid__item:nth-of-type(2), .grid__item:nth-of-type(3), .grid__item:nth-of-type(4), .grid__item:nth-of-type(5) {
       grid-column: 1/2;
       grid-row: auto; }
-    .grid__item h1, .grid__item h2 {
+    .grid__item h1,
+    .grid__item h2 {
       font-size: 1.5rem;
       white-space: nowrap;
       overflow: hidden;
@@ -5587,7 +5602,9 @@ ul {
   .grid #grid-item--check5:checked + .grid__item {
     height: 300px;
     pointer-events: none; }
-    .grid #grid-item--check1:checked + .grid__item .grid__item--text, .grid #grid-item--check1:checked + .grid__item h1, .grid #grid-item--check1:checked + .grid__item h2,
+    .grid #grid-item--check1:checked + .grid__item .grid__item--text,
+    .grid #grid-item--check1:checked + .grid__item h1,
+    .grid #grid-item--check1:checked + .grid__item h2,
     .grid #grid-item--check2:checked + .grid__item .grid__item--text,
     .grid #grid-item--check2:checked + .grid__item h1,
     .grid #grid-item--check2:checked + .grid__item h2,
@@ -5676,7 +5693,8 @@ ul {
       font-size: 1rem;
       padding-top: 0rem;
       margin-bottom: 2rem; }
-    .essentials__card p, .essentials__card h1 {
+    .essentials__card p,
+    .essentials__card h1 {
       white-space: nowrap;
       overflow: hidden;
       text-overflow: ellipsis; }
@@ -5688,7 +5706,8 @@ ul {
   .essentials #essentials-item--check2:checked + .essentials__card {
     height: 300px;
     pointer-events: none; }
-    .essentials #essentials-item--check1:checked + .essentials__card h1, .essentials #essentials-item--check1:checked + .essentials__card p,
+    .essentials #essentials-item--check1:checked + .essentials__card h1,
+    .essentials #essentials-item--check1:checked + .essentials__card p,
     .essentials #essentials-item--check2:checked + .essentials__card h1,
     .essentials #essentials-item--check2:checked + .essentials__card p {
       white-space: normal; }
